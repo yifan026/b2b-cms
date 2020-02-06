@@ -1,0 +1,493 @@
+{
+  "variables": [],
+  "info": {
+    "name": "Y1. Container data",
+    "_postman_id": "22f34bdc-e115-a858-b36c-3e5fce9aca7f",
+    "description": "New collection (imported from DHC)",
+    "schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Container- 0.Upload AD",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "// handle case where it is 204",
+              "",
+              "if (responseCode.code === 200) {",
+              "    tests[\"Status code is 200\"] = true;",
+              "",
+              "}",
+              "else if (responseCode.code === 204) {",
+              "    tests[\"Status code is 204\"] = true;",
+              "}",
+              "else {",
+              "    tests[\"Status code is 204 or 200\"] = false;",
+              "}"
+            ]
+          }
+        }
+      ],
+      "request": {
+        "url": "http://vn7/frontend_api/api/Containers/advertisement/upload",
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "description": ""
+          },
+          {
+            "key": "Accept",
+            "value": "application/json, application/xml, text/xml, application/javascript, text/javascript",
+            "description": ""
+          },
+          {
+            "key": "Accept",
+            "value": "application/x-www-form-urlencoded",
+            "description": ""
+          },
+          {
+            "key": "Content-Type",
+            "name": "Content-Type",
+            "value": "application/x-www-form-urlencoded",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "formdata",
+          "formdata": [
+            {
+              "type": "file",
+              "key": "SYSChannelProfiles001",
+              "src": "/home/yfc/文件/himirrortest測試.jpg"
+            }
+          ]
+        },
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "name": "Container- 0.Upload DS",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "// handle case where it is 204",
+              "",
+              "if (responseCode.code === 200) {",
+              "    tests[\"Status code is 200\"] = true;",
+              "",
+              "}",
+              "else if (responseCode.code === 204) {",
+              "    tests[\"Status code is 204\"] = true;",
+              "}",
+              "else {",
+              "    tests[\"Status code is 204 or 200\"] = false;",
+              "}"
+            ]
+          }
+        }
+      ],
+      "request": {
+        "url": "http://vn7/frontend_api/api/Containers/digital-signages/upload",
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "description": ""
+          },
+          {
+            "key": "Accept",
+            "value": "application/json, application/xml, text/xml, application/javascript, text/javascript",
+            "description": ""
+          },
+          {
+            "key": "Accept",
+            "value": "application/x-www-form-urlencoded",
+            "description": ""
+          },
+          {
+            "key": "Content-Type",
+            "name": "Content-Type",
+            "value": "application/x-www-form-urlencoded",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "formdata",
+          "formdata": [
+            {
+              "type": "file",
+              "key": "SYSChannelProfiles001",
+              "src": "/home/yfc/文件/himirrortest測試.jpg"
+            }
+          ]
+        },
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "name": "Container- 0.Upload Product",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "// handle case where it is 204",
+              "",
+              "if (responseCode.code === 200) {",
+              "    tests[\"Status code is 200\"] = true;",
+              "",
+              "}",
+              "else if (responseCode.code === 204) {",
+              "    tests[\"Status code is 204\"] = true;",
+              "}",
+              "else {",
+              "    tests[\"Status code is 204 or 200\"] = false;",
+              "}"
+            ]
+          }
+        }
+      ],
+      "request": {
+        "url": "http://vn7/frontend_api/api/Containers/product-photo/upload",
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "description": ""
+          },
+          {
+            "key": "Accept",
+            "value": "application/json, application/xml, text/xml, application/javascript, text/javascript",
+            "description": ""
+          },
+          {
+            "key": "Accept",
+            "value": "application/x-www-form-urlencoded",
+            "description": ""
+          },
+          {
+            "key": "Content-Type",
+            "name": "Content-Type",
+            "value": "application/x-www-form-urlencoded",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "formdata",
+          "formdata": [
+            {
+              "type": "file",
+              "key": "SYSChannelProfiles001",
+              "src": "/home/yfc/文件/himirrortest測試.jpg"
+            }
+          ]
+        },
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "name": "Container- 1.Download Product-dev",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "// handle case where it is 204",
+              "",
+              "if (responseCode.code === 200) {",
+              "    tests[\"Status code is 200\"] = true;",
+              "",
+              "}",
+              "else if (responseCode.code === 204) {",
+              "    tests[\"Status code is 204\"] = true;",
+              "}",
+              "else {",
+              "    tests[\"Status code is 204 or 200\"] = false;",
+              "}"
+            ]
+          }
+        }
+      ],
+      "request": {
+        "url": "http://vn7/frontend_api/api/Containers/product-photo/download/SYSChannelProfiles001%2Fhimirrortest_himirrortest%25E6%25B8%25AC%25E8%25A9%25A6.jpg",
+        "method": "GET",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "description": ""
+          },
+          {
+            "key": "Accept",
+            "value": "application/json, application/xml, text/xml, application/javascript, text/javascript",
+            "description": ""
+          },
+          {
+            "key": "Accept",
+            "value": "application/x-www-form-urlencoded",
+            "description": ""
+          },
+          {
+            "key": "Content-Type",
+            "name": "Content-Type",
+            "value": "application/x-www-form-urlencoded",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": ""
+        },
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "name": "Container- 1.Download Skincare-dev",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "// handle case where it is 204",
+              "",
+              "if (responseCode.code === 200) {",
+              "    tests[\"Status code is 200\"] = true;",
+              "",
+              "}",
+              "else if (responseCode.code === 204) {",
+              "    tests[\"Status code is 204\"] = true;",
+              "}",
+              "else {",
+              "    tests[\"Status code is 204 or 200\"] = false;",
+              "}"
+            ]
+          }
+        }
+      ],
+      "request": {
+        "url": "http://vn7/frontend_api/api/Containers/skincare/download/35%2F8a%2Fde6ab954ff2e087cbf022a6eb9948e08885c22e57091efb52cb17bf63e0fdc9a%2Fraw.jpg",
+        "method": "GET",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "description": ""
+          },
+          {
+            "key": "Accept",
+            "value": "application/json, application/xml, text/xml, application/javascript, text/javascript",
+            "description": ""
+          },
+          {
+            "key": "Accept",
+            "value": "application/x-www-form-urlencoded",
+            "description": ""
+          },
+          {
+            "key": "Content-Type",
+            "name": "Content-Type",
+            "value": "application/x-www-form-urlencoded",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": ""
+        },
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "name": "Container- Delete AD photo of Cloud",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "// handle case where it is 204",
+              "",
+              "if (responseCode.code === 200) {",
+              "    tests[\"Status code is 200\"] = true;",
+              "",
+              "}",
+              "else if (responseCode.code === 204) {",
+              "    tests[\"Status code is 204\"] = true;",
+              "}",
+              "else {",
+              "    tests[\"Status code is 204 or 200\"] = false;",
+              "}"
+            ]
+          }
+        }
+      ],
+      "request": {
+        "url": "http://vn7/frontend_api/api/containers/advertisement/files/SYSChannelProfiles001%252Fhimirrortest_himirrortest%25E6%25B8%25AC%25E8%25A9%25A6.jpg?access_token=3i3AtUrAGWF6t3TL9w9lf8XlSNmbvCP48JhGG9d8z4LZZCOH2kZgPTYDA4LJeOkT",
+        "method": "DELETE",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "description": ""
+          },
+          {
+            "key": "Accept",
+            "value": "application/json, application/xml, text/xml, application/javascript, text/javascript",
+            "description": ""
+          },
+          {
+            "key": "Accept",
+            "value": "application/x-www-form-urlencoded",
+            "description": ""
+          },
+          {
+            "key": "Content-Type",
+            "name": "Content-Type",
+            "value": "application/x-www-form-urlencoded",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "urlencoded",
+          "urlencoded": []
+        },
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "name": "Container- Delete DS photo of Cloud",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "// handle case where it is 204",
+              "",
+              "if (responseCode.code === 200) {",
+              "    tests[\"Status code is 200\"] = true;",
+              "",
+              "}",
+              "else if (responseCode.code === 204) {",
+              "    tests[\"Status code is 204\"] = true;",
+              "}",
+              "else {",
+              "    tests[\"Status code is 204 or 200\"] = false;",
+              "}"
+            ]
+          }
+        }
+      ],
+      "request": {
+        "url": "http://vn7/frontend_api/api/containers/digital-signages/files/SYSChannelProfiles001%252Fhimirrortest_himirrortest%25E6%25B8%25AC%25E8%25A9%25A6.jpg?access_token=3i3AtUrAGWF6t3TL9w9lf8XlSNmbvCP48JhGG9d8z4LZZCOH2kZgPTYDA4LJeOkT",
+        "method": "DELETE",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "description": ""
+          },
+          {
+            "key": "Accept",
+            "value": "application/json, application/xml, text/xml, application/javascript, text/javascript",
+            "description": ""
+          },
+          {
+            "key": "Accept",
+            "value": "application/x-www-form-urlencoded",
+            "description": ""
+          },
+          {
+            "key": "Content-Type",
+            "name": "Content-Type",
+            "value": "application/x-www-form-urlencoded",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "urlencoded",
+          "urlencoded": []
+        },
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "name": "Container- Delete Prd photo of Cloud",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "// handle case where it is 204",
+              "",
+              "if (responseCode.code === 200) {",
+              "    tests[\"Status code is 200\"] = true;",
+              "",
+              "}",
+              "else if (responseCode.code === 204) {",
+              "    tests[\"Status code is 204\"] = true;",
+              "}",
+              "else {",
+              "    tests[\"Status code is 204 or 200\"] = false;",
+              "}"
+            ]
+          }
+        }
+      ],
+      "request": {
+        "url": "http://vn7/frontend_api/api/containers/product-photo/files/SYSChannelProfiles001%252Fhimirrortest_himirrortest%25E6%25B8%25AC%25E8%25A9%25A6.jpg?access_token=3i3AtUrAGWF6t3TL9w9lf8XlSNmbvCP48JhGG9d8z4LZZCOH2kZgPTYDA4LJeOkT",
+        "method": "DELETE",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "description": ""
+          },
+          {
+            "key": "Accept",
+            "value": "application/json, application/xml, text/xml, application/javascript, text/javascript",
+            "description": ""
+          },
+          {
+            "key": "Accept",
+            "value": "application/x-www-form-urlencoded",
+            "description": ""
+          },
+          {
+            "key": "Content-Type",
+            "name": "Content-Type",
+            "value": "application/x-www-form-urlencoded",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "urlencoded",
+          "urlencoded": []
+        },
+        "description": ""
+      },
+      "response": []
+    }
+  ]
+}

@@ -1,0 +1,1715 @@
+paths:
+  /SysChannelUsers:
+    post:
+      tags:
+        - SysChannelUsers
+      summary: Create a new instance of the model and persist it into the data source.
+      operationId: SysChannelUsers.create
+      parameters:
+        - name: data
+          in: body
+          description: Model instance data
+          required: false
+          schema:
+            description: Model instance data
+            $ref: '#/definitions/SysChannelUsers'
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            $ref: '#/definitions/SysChannelUsers'
+      deprecated: false
+    patch:
+      tags:
+        - SysChannelUsers
+      summary: >-
+        Patch an existing model instance or insert a new one into the data
+        source.
+      operationId: SysChannelUsers.patchOrCreate
+      parameters:
+        - name: data
+          in: body
+          description: Model instance data
+          required: false
+          schema:
+            description: Model instance data
+            $ref: '#/definitions/SysChannelUsers'
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            $ref: '#/definitions/SysChannelUsers'
+      deprecated: false
+    put:
+      tags:
+        - SysChannelUsers
+      summary: >-
+        Replace an existing model instance or insert a new one into the data
+        source.
+      operationId: SysChannelUsers.replaceOrCreate__put_SysChannelUsers
+      parameters:
+        - name: data
+          in: body
+          description: Model instance data
+          required: false
+          schema:
+            description: Model instance data
+            $ref: '#/definitions/SysChannelUsers'
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            $ref: '#/definitions/SysChannelUsers'
+      deprecated: false
+    get:
+      tags:
+        - SysChannelUsers
+      summary: Find all instances of the model matched by filter from the data source.
+      operationId: SysChannelUsers.find
+      parameters:
+        - name: filter
+          in: query
+          description: >-
+            Filter defining fields, where, include, order, offset, and limit -
+            must be a JSON-encoded string ({"something":"value"})
+          required: false
+          type: string
+          format: JSON
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            type: array
+            items:
+              $ref: '#/definitions/SysChannelUsers'
+      deprecated: false
+  /SysChannelUsers/replaceOrCreate:
+    post:
+      tags:
+        - SysChannelUsers
+      summary: >-
+        Replace an existing model instance or insert a new one into the data
+        source.
+      operationId: SysChannelUsers.replaceOrCreate__post_SysChannelUsers_replaceOrCreate
+      parameters:
+        - name: data
+          in: body
+          description: Model instance data
+          required: false
+          schema:
+            description: Model instance data
+            $ref: '#/definitions/SysChannelUsers'
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            $ref: '#/definitions/SysChannelUsers'
+      deprecated: false
+  /SysChannelUsers/upsertWithWhere:
+    post:
+      tags:
+        - SysChannelUsers
+      summary: >-
+        Update an existing model instance or insert a new one into the data
+        source based on the where criteria.
+      operationId: SysChannelUsers.upsertWithWhere
+      parameters:
+        - name: where
+          in: query
+          description: Criteria to match model instances
+          required: false
+          type: string
+          format: JSON
+        - name: data
+          in: body
+          description: An object of model property name/value pairs
+          required: false
+          schema:
+            description: An object of model property name/value pairs
+            $ref: '#/definitions/SysChannelUsers'
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            $ref: '#/definitions/SysChannelUsers'
+      deprecated: false
+  '/SysChannelUsers/{id}/exists':
+    get:
+      tags:
+        - SysChannelUsers
+      summary: Check whether a model instance exists in the data source.
+      operationId: 'SysChannelUsers.exists__get_SysChannelUsers_{id}_exists'
+      parameters:
+        - name: id
+          in: path
+          description: Model id
+          required: true
+          type: string
+          format: JSON
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            type: object
+            properties:
+              exists:
+                type: boolean
+      deprecated: false
+  '/SysChannelUsers/{id}':
+    head:
+      tags:
+        - SysChannelUsers
+      summary: Check whether a model instance exists in the data source.
+      operationId: 'SysChannelUsers.exists__head_SysChannelUsers_{id}'
+      parameters:
+        - name: id
+          in: path
+          description: Model id
+          required: true
+          type: string
+          format: JSON
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            type: object
+            properties:
+              exists:
+                type: boolean
+      deprecated: false
+    get:
+      tags:
+        - SysChannelUsers
+      summary: 'Find a model instance by {{id}} from the data source.'
+      operationId: SysChannelUsers.findById
+      parameters:
+        - name: id
+          in: path
+          description: Model id
+          required: true
+          type: string
+          format: JSON
+        - name: filter
+          in: query
+          description: >-
+            Filter defining fields and include - must be a JSON-encoded string
+            ({"something":"value"})
+          required: false
+          type: string
+          format: JSON
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            $ref: '#/definitions/SysChannelUsers'
+      deprecated: false
+    put:
+      tags:
+        - SysChannelUsers
+      summary: >-
+        Replace attributes for a model instance and persist it into the data
+        source.
+      operationId: 'SysChannelUsers.replaceById__put_SysChannelUsers_{id}'
+      parameters:
+        - name: id
+          in: path
+          description: Model id
+          required: true
+          type: string
+          format: JSON
+        - name: data
+          in: body
+          description: Model instance data
+          required: false
+          schema:
+            description: Model instance data
+            $ref: '#/definitions/SysChannelUsers'
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            $ref: '#/definitions/SysChannelUsers'
+      deprecated: false
+    delete:
+      tags:
+        - SysChannelUsers
+      summary: 'Delete a model instance by {{id}} from the data source.'
+      operationId: SysChannelUsers.deleteById
+      parameters:
+        - name: id
+          in: path
+          description: Model id
+          required: true
+          type: string
+          format: JSON
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            type: object
+      deprecated: false
+    patch:
+      tags:
+        - SysChannelUsers
+      summary: >-
+        Patch attributes for a model instance and persist it into the data
+        source.
+      operationId: SysChannelUsers.prototype.patchAttributes
+      parameters:
+        - name: data
+          in: body
+          description: An object of model property name/value pairs
+          required: false
+          schema:
+            description: An object of model property name/value pairs
+            $ref: '#/definitions/SysChannelUsers'
+        - name: id
+          in: path
+          description: SysChannelUsers id
+          required: true
+          type: string
+          format: JSON
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            $ref: '#/definitions/SysChannelUsers'
+      deprecated: false
+  '/SysChannelUsers/{id}/replace':
+    post:
+      tags:
+        - SysChannelUsers
+      summary: >-
+        Replace attributes for a model instance and persist it into the data
+        source.
+      operationId: 'SysChannelUsers.replaceById__post_SysChannelUsers_{id}_replace'
+      parameters:
+        - name: id
+          in: path
+          description: Model id
+          required: true
+          type: string
+          format: JSON
+        - name: data
+          in: body
+          description: Model instance data
+          required: false
+          schema:
+            description: Model instance data
+            $ref: '#/definitions/SysChannelUsers'
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            $ref: '#/definitions/SysChannelUsers'
+      deprecated: false
+  /SysChannelUsers/findOne:
+    get:
+      tags:
+        - SysChannelUsers
+      summary: Find first instance of the model matched by filter from the data source.
+      operationId: SysChannelUsers.findOne
+      parameters:
+        - name: filter
+          in: query
+          description: >-
+            Filter defining fields, where, include, order, offset, and limit -
+            must be a JSON-encoded string ({"something":"value"})
+          required: false
+          type: string
+          format: JSON
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            $ref: '#/definitions/SysChannelUsers'
+      deprecated: false
+  /SysChannelUsers/update:
+    post:
+      tags:
+        - SysChannelUsers
+      summary: 'Update instances of the model matched by {{where}} from the data source.'
+      operationId: SysChannelUsers.updateAll
+      parameters:
+        - name: where
+          in: query
+          description: Criteria to match model instances
+          required: false
+          type: string
+          format: JSON
+        - name: data
+          in: body
+          description: An object of model property name/value pairs
+          required: false
+          schema:
+            description: An object of model property name/value pairs
+            $ref: '#/definitions/SysChannelUsers'
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            description: Information related to the outcome of the operation
+            type: object
+            properties:
+              count:
+                description: The number of instances updated
+                type: number
+                format: double
+      deprecated: false
+  /SysChannelUsers/count:
+    get:
+      tags:
+        - SysChannelUsers
+      summary: Count instances of the model matched by where from the data source.
+      operationId: SysChannelUsers.count
+      parameters:
+        - name: where
+          in: query
+          description: Criteria to match model instances
+          required: false
+          type: string
+          format: JSON
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            type: object
+            properties:
+              count:
+                type: number
+                format: double
+      deprecated: false
+  /UsrSkinanalyses:
+    post:
+      tags:
+        - UsrSkinanalysis
+      summary: Create a new instance of the model and persist it into the data source.
+      operationId: UsrSkinanalysis.create
+      parameters:
+        - name: data
+          in: body
+          description: Model instance data
+          required: false
+          schema:
+            description: Model instance data
+            $ref: '#/definitions/UsrSkinanalysis'
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            $ref: '#/definitions/UsrSkinanalysis'
+      deprecated: false
+    patch:
+      tags:
+        - UsrSkinanalysis
+      summary: >-
+        Patch an existing model instance or insert a new one into the data
+        source.
+      operationId: UsrSkinanalysis.patchOrCreate
+      parameters:
+        - name: data
+          in: body
+          description: Model instance data
+          required: false
+          schema:
+            description: Model instance data
+            $ref: '#/definitions/UsrSkinanalysis'
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            $ref: '#/definitions/UsrSkinanalysis'
+      deprecated: false
+    put:
+      tags:
+        - UsrSkinanalysis
+      summary: >-
+        Replace an existing model instance or insert a new one into the data
+        source.
+      operationId: UsrSkinanalysis.replaceOrCreate__put_UsrSkinanalyses
+      parameters:
+        - name: data
+          in: body
+          description: Model instance data
+          required: false
+          schema:
+            description: Model instance data
+            $ref: '#/definitions/UsrSkinanalysis'
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            $ref: '#/definitions/UsrSkinanalysis'
+      deprecated: false
+    get:
+      tags:
+        - UsrSkinanalysis
+      summary: Find all instances of the model matched by filter from the data source.
+      operationId: UsrSkinanalysis.find
+      parameters:
+        - name: filter
+          in: query
+          description: >-
+            Filter defining fields, where, include, order, offset, and limit -
+            must be a JSON-encoded string ({"something":"value"})
+          required: false
+          type: string
+          format: JSON
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            type: array
+            items:
+              $ref: '#/definitions/UsrSkinanalysis'
+      deprecated: false
+  /UsrSkinanalyses/replaceOrCreate:
+    post:
+      tags:
+        - UsrSkinanalysis
+      summary: >-
+        Replace an existing model instance or insert a new one into the data
+        source.
+      operationId: UsrSkinanalysis.replaceOrCreate__post_UsrSkinanalyses_replaceOrCreate
+      parameters:
+        - name: data
+          in: body
+          description: Model instance data
+          required: false
+          schema:
+            description: Model instance data
+            $ref: '#/definitions/UsrSkinanalysis'
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            $ref: '#/definitions/UsrSkinanalysis'
+      deprecated: false
+  /UsrSkinanalyses/upsertWithWhere:
+    post:
+      tags:
+        - UsrSkinanalysis
+      summary: >-
+        Update an existing model instance or insert a new one into the data
+        source based on the where criteria.
+      operationId: UsrSkinanalysis.upsertWithWhere
+      parameters:
+        - name: where
+          in: query
+          description: Criteria to match model instances
+          required: false
+          type: string
+          format: JSON
+        - name: data
+          in: body
+          description: An object of model property name/value pairs
+          required: false
+          schema:
+            description: An object of model property name/value pairs
+            $ref: '#/definitions/UsrSkinanalysis'
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            $ref: '#/definitions/UsrSkinanalysis'
+      deprecated: false
+  '/UsrSkinanalyses/{id}/exists':
+    get:
+      tags:
+        - UsrSkinanalysis
+      summary: Check whether a model instance exists in the data source.
+      operationId: 'UsrSkinanalysis.exists__get_UsrSkinanalyses_{id}_exists'
+      parameters:
+        - name: id
+          in: path
+          description: Model id
+          required: true
+          type: string
+          format: JSON
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            type: object
+            properties:
+              exists:
+                type: boolean
+      deprecated: false
+  '/UsrSkinanalyses/{id}':
+    head:
+      tags:
+        - UsrSkinanalysis
+      summary: Check whether a model instance exists in the data source.
+      operationId: 'UsrSkinanalysis.exists__head_UsrSkinanalyses_{id}'
+      parameters:
+        - name: id
+          in: path
+          description: Model id
+          required: true
+          type: string
+          format: JSON
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            type: object
+            properties:
+              exists:
+                type: boolean
+      deprecated: false
+    get:
+      tags:
+        - UsrSkinanalysis
+      summary: 'Find a model instance by {{id}} from the data source.'
+      operationId: UsrSkinanalysis.findById
+      parameters:
+        - name: id
+          in: path
+          description: Model id
+          required: true
+          type: string
+          format: JSON
+        - name: filter
+          in: query
+          description: >-
+            Filter defining fields and include - must be a JSON-encoded string
+            ({"something":"value"})
+          required: false
+          type: string
+          format: JSON
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            $ref: '#/definitions/UsrSkinanalysis'
+      deprecated: false
+    put:
+      tags:
+        - UsrSkinanalysis
+      summary: >-
+        Replace attributes for a model instance and persist it into the data
+        source.
+      operationId: 'UsrSkinanalysis.replaceById__put_UsrSkinanalyses_{id}'
+      parameters:
+        - name: id
+          in: path
+          description: Model id
+          required: true
+          type: string
+          format: JSON
+        - name: data
+          in: body
+          description: Model instance data
+          required: false
+          schema:
+            description: Model instance data
+            $ref: '#/definitions/UsrSkinanalysis'
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            $ref: '#/definitions/UsrSkinanalysis'
+      deprecated: false
+    delete:
+      tags:
+        - UsrSkinanalysis
+      summary: 'Delete a model instance by {{id}} from the data source.'
+      operationId: UsrSkinanalysis.deleteById
+      parameters:
+        - name: id
+          in: path
+          description: Model id
+          required: true
+          type: string
+          format: JSON
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            type: object
+      deprecated: false
+    patch:
+      tags:
+        - UsrSkinanalysis
+      summary: >-
+        Patch attributes for a model instance and persist it into the data
+        source.
+      operationId: UsrSkinanalysis.prototype.patchAttributes
+      parameters:
+        - name: data
+          in: body
+          description: An object of model property name/value pairs
+          required: false
+          schema:
+            description: An object of model property name/value pairs
+            $ref: '#/definitions/UsrSkinanalysis'
+        - name: id
+          in: path
+          description: UsrSkinanalysis id
+          required: true
+          type: string
+          format: JSON
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            $ref: '#/definitions/UsrSkinanalysis'
+      deprecated: false
+  '/UsrSkinanalyses/{id}/replace':
+    post:
+      tags:
+        - UsrSkinanalysis
+      summary: >-
+        Replace attributes for a model instance and persist it into the data
+        source.
+      operationId: 'UsrSkinanalysis.replaceById__post_UsrSkinanalyses_{id}_replace'
+      parameters:
+        - name: id
+          in: path
+          description: Model id
+          required: true
+          type: string
+          format: JSON
+        - name: data
+          in: body
+          description: Model instance data
+          required: false
+          schema:
+            description: Model instance data
+            $ref: '#/definitions/UsrSkinanalysis'
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            $ref: '#/definitions/UsrSkinanalysis'
+      deprecated: false
+  /UsrSkinanalyses/findOne:
+    get:
+      tags:
+        - UsrSkinanalysis
+      summary: Find first instance of the model matched by filter from the data source.
+      operationId: UsrSkinanalysis.findOne
+      parameters:
+        - name: filter
+          in: query
+          description: >-
+            Filter defining fields, where, include, order, offset, and limit -
+            must be a JSON-encoded string ({"something":"value"})
+          required: false
+          type: string
+          format: JSON
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            $ref: '#/definitions/UsrSkinanalysis'
+      deprecated: false
+  /UsrSkinanalyses/update:
+    post:
+      tags:
+        - UsrSkinanalysis
+      summary: 'Update instances of the model matched by {{where}} from the data source.'
+      operationId: UsrSkinanalysis.updateAll
+      parameters:
+        - name: where
+          in: query
+          description: Criteria to match model instances
+          required: false
+          type: string
+          format: JSON
+        - name: data
+          in: body
+          description: An object of model property name/value pairs
+          required: false
+          schema:
+            description: An object of model property name/value pairs
+            $ref: '#/definitions/UsrSkinanalysis'
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            description: Information related to the outcome of the operation
+            type: object
+            properties:
+              count:
+                description: The number of instances updated
+                type: number
+                format: double
+      deprecated: false
+  /UsrSkinanalyses/count:
+    get:
+      tags:
+        - UsrSkinanalysis
+      summary: Count instances of the model matched by where from the data source.
+      operationId: UsrSkinanalysis.count
+      parameters:
+        - name: where
+          in: query
+          description: Criteria to match model instances
+          required: false
+          type: string
+          format: JSON
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            type: object
+            properties:
+              count:
+                type: number
+                format: double
+      deprecated: false
+  /UsrSkinanalysisRaws:
+    post:
+      tags:
+        - UsrSkinanalysisRaw
+      summary: Create a new instance of the model and persist it into the data source.
+      operationId: UsrSkinanalysisRaw.create
+      parameters:
+        - name: data
+          in: body
+          description: Model instance data
+          required: false
+          schema:
+            description: Model instance data
+            $ref: '#/definitions/UsrSkinanalysisRaw'
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            $ref: '#/definitions/UsrSkinanalysisRaw'
+      deprecated: false
+    patch:
+      tags:
+        - UsrSkinanalysisRaw
+      summary: >-
+        Patch an existing model instance or insert a new one into the data
+        source.
+      operationId: UsrSkinanalysisRaw.patchOrCreate
+      parameters:
+        - name: data
+          in: body
+          description: Model instance data
+          required: false
+          schema:
+            description: Model instance data
+            $ref: '#/definitions/UsrSkinanalysisRaw'
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            $ref: '#/definitions/UsrSkinanalysisRaw'
+      deprecated: false
+    put:
+      tags:
+        - UsrSkinanalysisRaw
+      summary: >-
+        Replace an existing model instance or insert a new one into the data
+        source.
+      operationId: UsrSkinanalysisRaw.replaceOrCreate__put_UsrSkinanalysisRaws
+      parameters:
+        - name: data
+          in: body
+          description: Model instance data
+          required: false
+          schema:
+            description: Model instance data
+            $ref: '#/definitions/UsrSkinanalysisRaw'
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            $ref: '#/definitions/UsrSkinanalysisRaw'
+      deprecated: false
+    get:
+      tags:
+        - UsrSkinanalysisRaw
+      summary: Find all instances of the model matched by filter from the data source.
+      operationId: UsrSkinanalysisRaw.find
+      parameters:
+        - name: filter
+          in: query
+          description: >-
+            Filter defining fields, where, include, order, offset, and limit -
+            must be a JSON-encoded string ({"something":"value"})
+          required: false
+          type: string
+          format: JSON
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            type: array
+            items:
+              $ref: '#/definitions/UsrSkinanalysisRaw'
+      deprecated: false
+  /UsrSkinanalysisRaws/replaceOrCreate:
+    post:
+      tags:
+        - UsrSkinanalysisRaw
+      summary: >-
+        Replace an existing model instance or insert a new one into the data
+        source.
+      operationId: >-
+        UsrSkinanalysisRaw.replaceOrCreate__post_UsrSkinanalysisRaws_replaceOrCreate
+      parameters:
+        - name: data
+          in: body
+          description: Model instance data
+          required: false
+          schema:
+            description: Model instance data
+            $ref: '#/definitions/UsrSkinanalysisRaw'
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            $ref: '#/definitions/UsrSkinanalysisRaw'
+      deprecated: false
+  /UsrSkinanalysisRaws/upsertWithWhere:
+    post:
+      tags:
+        - UsrSkinanalysisRaw
+      summary: >-
+        Update an existing model instance or insert a new one into the data
+        source based on the where criteria.
+      operationId: UsrSkinanalysisRaw.upsertWithWhere
+      parameters:
+        - name: where
+          in: query
+          description: Criteria to match model instances
+          required: false
+          type: string
+          format: JSON
+        - name: data
+          in: body
+          description: An object of model property name/value pairs
+          required: false
+          schema:
+            description: An object of model property name/value pairs
+            $ref: '#/definitions/UsrSkinanalysisRaw'
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            $ref: '#/definitions/UsrSkinanalysisRaw'
+      deprecated: false
+  '/UsrSkinanalysisRaws/{id}/exists':
+    get:
+      tags:
+        - UsrSkinanalysisRaw
+      summary: Check whether a model instance exists in the data source.
+      operationId: 'UsrSkinanalysisRaw.exists__get_UsrSkinanalysisRaws_{id}_exists'
+      parameters:
+        - name: id
+          in: path
+          description: Model id
+          required: true
+          type: string
+          format: JSON
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            type: object
+            properties:
+              exists:
+                type: boolean
+      deprecated: false
+  '/UsrSkinanalysisRaws/{id}':
+    head:
+      tags:
+        - UsrSkinanalysisRaw
+      summary: Check whether a model instance exists in the data source.
+      operationId: 'UsrSkinanalysisRaw.exists__head_UsrSkinanalysisRaws_{id}'
+      parameters:
+        - name: id
+          in: path
+          description: Model id
+          required: true
+          type: string
+          format: JSON
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            type: object
+            properties:
+              exists:
+                type: boolean
+      deprecated: false
+    get:
+      tags:
+        - UsrSkinanalysisRaw
+      summary: 'Find a model instance by {{id}} from the data source.'
+      operationId: UsrSkinanalysisRaw.findById
+      parameters:
+        - name: id
+          in: path
+          description: Model id
+          required: true
+          type: string
+          format: JSON
+        - name: filter
+          in: query
+          description: >-
+            Filter defining fields and include - must be a JSON-encoded string
+            ({"something":"value"})
+          required: false
+          type: string
+          format: JSON
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            $ref: '#/definitions/UsrSkinanalysisRaw'
+      deprecated: false
+    put:
+      tags:
+        - UsrSkinanalysisRaw
+      summary: >-
+        Replace attributes for a model instance and persist it into the data
+        source.
+      operationId: 'UsrSkinanalysisRaw.replaceById__put_UsrSkinanalysisRaws_{id}'
+      parameters:
+        - name: id
+          in: path
+          description: Model id
+          required: true
+          type: string
+          format: JSON
+        - name: data
+          in: body
+          description: Model instance data
+          required: false
+          schema:
+            description: Model instance data
+            $ref: '#/definitions/UsrSkinanalysisRaw'
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            $ref: '#/definitions/UsrSkinanalysisRaw'
+      deprecated: false
+    delete:
+      tags:
+        - UsrSkinanalysisRaw
+      summary: 'Delete a model instance by {{id}} from the data source.'
+      operationId: UsrSkinanalysisRaw.deleteById
+      parameters:
+        - name: id
+          in: path
+          description: Model id
+          required: true
+          type: string
+          format: JSON
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            type: object
+      deprecated: false
+    patch:
+      tags:
+        - UsrSkinanalysisRaw
+      summary: >-
+        Patch attributes for a model instance and persist it into the data
+        source.
+      operationId: UsrSkinanalysisRaw.prototype.patchAttributes
+      parameters:
+        - name: data
+          in: body
+          description: An object of model property name/value pairs
+          required: false
+          schema:
+            description: An object of model property name/value pairs
+            $ref: '#/definitions/UsrSkinanalysisRaw'
+        - name: id
+          in: path
+          description: UsrSkinanalysisRaw id
+          required: true
+          type: string
+          format: JSON
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            $ref: '#/definitions/UsrSkinanalysisRaw'
+      deprecated: false
+  '/UsrSkinanalysisRaws/{id}/replace':
+    post:
+      tags:
+        - UsrSkinanalysisRaw
+      summary: >-
+        Replace attributes for a model instance and persist it into the data
+        source.
+      operationId: 'UsrSkinanalysisRaw.replaceById__post_UsrSkinanalysisRaws_{id}_replace'
+      parameters:
+        - name: id
+          in: path
+          description: Model id
+          required: true
+          type: string
+          format: JSON
+        - name: data
+          in: body
+          description: Model instance data
+          required: false
+          schema:
+            description: Model instance data
+            $ref: '#/definitions/UsrSkinanalysisRaw'
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            $ref: '#/definitions/UsrSkinanalysisRaw'
+      deprecated: false
+  /UsrSkinanalysisRaws/findOne:
+    get:
+      tags:
+        - UsrSkinanalysisRaw
+      summary: Find first instance of the model matched by filter from the data source.
+      operationId: UsrSkinanalysisRaw.findOne
+      parameters:
+        - name: filter
+          in: query
+          description: >-
+            Filter defining fields, where, include, order, offset, and limit -
+            must be a JSON-encoded string ({"something":"value"})
+          required: false
+          type: string
+          format: JSON
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            $ref: '#/definitions/UsrSkinanalysisRaw'
+      deprecated: false
+  /UsrSkinanalysisRaws/update:
+    post:
+      tags:
+        - UsrSkinanalysisRaw
+      summary: 'Update instances of the model matched by {{where}} from the data source.'
+      operationId: UsrSkinanalysisRaw.updateAll
+      parameters:
+        - name: where
+          in: query
+          description: Criteria to match model instances
+          required: false
+          type: string
+          format: JSON
+        - name: data
+          in: body
+          description: An object of model property name/value pairs
+          required: false
+          schema:
+            description: An object of model property name/value pairs
+            $ref: '#/definitions/UsrSkinanalysisRaw'
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            description: Information related to the outcome of the operation
+            type: object
+            properties:
+              count:
+                description: The number of instances updated
+                type: number
+                format: double
+      deprecated: false
+  /UsrSkinanalysisRaws/count:
+    get:
+      tags:
+        - UsrSkinanalysisRaw
+      summary: Count instances of the model matched by where from the data source.
+      operationId: UsrSkinanalysisRaw.count
+      parameters:
+        - name: where
+          in: query
+          description: Criteria to match model instances
+          required: false
+          type: string
+          format: JSON
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            type: object
+            properties:
+              count:
+                type: number
+                format: double
+      deprecated: false
+  /UsrChannelSkinanalysisProfiles:
+    post:
+      tags:
+        - UsrChannelSkinanalysisProfile
+      summary: Create a new instance of the model and persist it into the data source.
+      operationId: UsrChannelSkinanalysisProfile.create
+      parameters:
+        - name: data
+          in: body
+          description: Model instance data
+          required: false
+          schema:
+            description: Model instance data
+            $ref: '#/definitions/UsrChannelSkinanalysisProfile'
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            $ref: '#/definitions/UsrChannelSkinanalysisProfile'
+      deprecated: false
+    patch:
+      tags:
+        - UsrChannelSkinanalysisProfile
+      summary: >-
+        Patch an existing model instance or insert a new one into the data
+        source.
+      operationId: UsrChannelSkinanalysisProfile.patchOrCreate
+      parameters:
+        - name: data
+          in: body
+          description: Model instance data
+          required: false
+          schema:
+            description: Model instance data
+            $ref: '#/definitions/UsrChannelSkinanalysisProfile'
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            $ref: '#/definitions/UsrChannelSkinanalysisProfile'
+      deprecated: false
+    put:
+      tags:
+        - UsrChannelSkinanalysisProfile
+      summary: >-
+        Replace an existing model instance or insert a new one into the data
+        source.
+      operationId: >-
+        UsrChannelSkinanalysisProfile.replaceOrCreate__put_UsrChannelSkinanalysisProfiles
+      parameters:
+        - name: data
+          in: body
+          description: Model instance data
+          required: false
+          schema:
+            description: Model instance data
+            $ref: '#/definitions/UsrChannelSkinanalysisProfile'
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            $ref: '#/definitions/UsrChannelSkinanalysisProfile'
+      deprecated: false
+    get:
+      tags:
+        - UsrChannelSkinanalysisProfile
+      summary: Find all instances of the model matched by filter from the data source.
+      operationId: UsrChannelSkinanalysisProfile.find
+      parameters:
+        - name: filter
+          in: query
+          description: >-
+            Filter defining fields, where, include, order, offset, and limit -
+            must be a JSON-encoded string ({"something":"value"})
+          required: false
+          type: string
+          format: JSON
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            type: array
+            items:
+              $ref: '#/definitions/UsrChannelSkinanalysisProfile'
+      deprecated: false
+  /UsrChannelSkinanalysisProfiles/replaceOrCreate:
+    post:
+      tags:
+        - UsrChannelSkinanalysisProfile
+      summary: >-
+        Replace an existing model instance or insert a new one into the data
+        source.
+      operationId: >-
+        UsrChannelSkinanalysisProfile.replaceOrCreate__post_UsrChannelSkinanalysisProfiles_replaceOrCreate
+      parameters:
+        - name: data
+          in: body
+          description: Model instance data
+          required: false
+          schema:
+            description: Model instance data
+            $ref: '#/definitions/UsrChannelSkinanalysisProfile'
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            $ref: '#/definitions/UsrChannelSkinanalysisProfile'
+      deprecated: false
+  /UsrChannelSkinanalysisProfiles/upsertWithWhere:
+    post:
+      tags:
+        - UsrChannelSkinanalysisProfile
+      summary: >-
+        Update an existing model instance or insert a new one into the data
+        source based on the where criteria.
+      operationId: UsrChannelSkinanalysisProfile.upsertWithWhere
+      parameters:
+        - name: where
+          in: query
+          description: Criteria to match model instances
+          required: false
+          type: string
+          format: JSON
+        - name: data
+          in: body
+          description: An object of model property name/value pairs
+          required: false
+          schema:
+            description: An object of model property name/value pairs
+            $ref: '#/definitions/UsrChannelSkinanalysisProfile'
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            $ref: '#/definitions/UsrChannelSkinanalysisProfile'
+      deprecated: false
+  '/UsrChannelSkinanalysisProfiles/{id}/exists':
+    get:
+      tags:
+        - UsrChannelSkinanalysisProfile
+      summary: Check whether a model instance exists in the data source.
+      operationId: >-
+        UsrChannelSkinanalysisProfile.exists__get_UsrChannelSkinanalysisProfiles_{id}_exists
+      parameters:
+        - name: id
+          in: path
+          description: Model id
+          required: true
+          type: string
+          format: JSON
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            type: object
+            properties:
+              exists:
+                type: boolean
+      deprecated: false
+  '/UsrChannelSkinanalysisProfiles/{id}':
+    head:
+      tags:
+        - UsrChannelSkinanalysisProfile
+      summary: Check whether a model instance exists in the data source.
+      operationId: >-
+        UsrChannelSkinanalysisProfile.exists__head_UsrChannelSkinanalysisProfiles_{id}
+      parameters:
+        - name: id
+          in: path
+          description: Model id
+          required: true
+          type: string
+          format: JSON
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            type: object
+            properties:
+              exists:
+                type: boolean
+      deprecated: false
+    get:
+      tags:
+        - UsrChannelSkinanalysisProfile
+      summary: 'Find a model instance by {{id}} from the data source.'
+      operationId: UsrChannelSkinanalysisProfile.findById
+      parameters:
+        - name: id
+          in: path
+          description: Model id
+          required: true
+          type: string
+          format: JSON
+        - name: filter
+          in: query
+          description: >-
+            Filter defining fields and include - must be a JSON-encoded string
+            ({"something":"value"})
+          required: false
+          type: string
+          format: JSON
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            $ref: '#/definitions/UsrChannelSkinanalysisProfile'
+      deprecated: false
+    put:
+      tags:
+        - UsrChannelSkinanalysisProfile
+      summary: >-
+        Replace attributes for a model instance and persist it into the data
+        source.
+      operationId: >-
+        UsrChannelSkinanalysisProfile.replaceById__put_UsrChannelSkinanalysisProfiles_{id}
+      parameters:
+        - name: id
+          in: path
+          description: Model id
+          required: true
+          type: string
+          format: JSON
+        - name: data
+          in: body
+          description: Model instance data
+          required: false
+          schema:
+            description: Model instance data
+            $ref: '#/definitions/UsrChannelSkinanalysisProfile'
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            $ref: '#/definitions/UsrChannelSkinanalysisProfile'
+      deprecated: false
+    delete:
+      tags:
+        - UsrChannelSkinanalysisProfile
+      summary: 'Delete a model instance by {{id}} from the data source.'
+      operationId: UsrChannelSkinanalysisProfile.deleteById
+      parameters:
+        - name: id
+          in: path
+          description: Model id
+          required: true
+          type: string
+          format: JSON
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            type: object
+      deprecated: false
+    patch:
+      tags:
+        - UsrChannelSkinanalysisProfile
+      summary: >-
+        Patch attributes for a model instance and persist it into the data
+        source.
+      operationId: UsrChannelSkinanalysisProfile.prototype.patchAttributes
+      parameters:
+        - name: data
+          in: body
+          description: An object of model property name/value pairs
+          required: false
+          schema:
+            description: An object of model property name/value pairs
+            $ref: '#/definitions/UsrChannelSkinanalysisProfile'
+        - name: id
+          in: path
+          description: UsrChannelSkinanalysisProfile id
+          required: true
+          type: string
+          format: JSON
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            $ref: '#/definitions/UsrChannelSkinanalysisProfile'
+      deprecated: false
+  '/UsrChannelSkinanalysisProfiles/{id}/replace':
+    post:
+      tags:
+        - UsrChannelSkinanalysisProfile
+      summary: >-
+        Replace attributes for a model instance and persist it into the data
+        source.
+      operationId: >-
+        UsrChannelSkinanalysisProfile.replaceById__post_UsrChannelSkinanalysisProfiles_{id}_replace
+      parameters:
+        - name: id
+          in: path
+          description: Model id
+          required: true
+          type: string
+          format: JSON
+        - name: data
+          in: body
+          description: Model instance data
+          required: false
+          schema:
+            description: Model instance data
+            $ref: '#/definitions/UsrChannelSkinanalysisProfile'
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            $ref: '#/definitions/UsrChannelSkinanalysisProfile'
+      deprecated: false
+  /UsrChannelSkinanalysisProfiles/findOne:
+    get:
+      tags:
+        - UsrChannelSkinanalysisProfile
+      summary: Find first instance of the model matched by filter from the data source.
+      operationId: UsrChannelSkinanalysisProfile.findOne
+      parameters:
+        - name: filter
+          in: query
+          description: >-
+            Filter defining fields, where, include, order, offset, and limit -
+            must be a JSON-encoded string ({"something":"value"})
+          required: false
+          type: string
+          format: JSON
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            $ref: '#/definitions/UsrChannelSkinanalysisProfile'
+      deprecated: false
+  /UsrChannelSkinanalysisProfiles/update:
+    post:
+      tags:
+        - UsrChannelSkinanalysisProfile
+      summary: 'Update instances of the model matched by {{where}} from the data source.'
+      operationId: UsrChannelSkinanalysisProfile.updateAll
+      parameters:
+        - name: where
+          in: query
+          description: Criteria to match model instances
+          required: false
+          type: string
+          format: JSON
+        - name: data
+          in: body
+          description: An object of model property name/value pairs
+          required: false
+          schema:
+            description: An object of model property name/value pairs
+            $ref: '#/definitions/UsrChannelSkinanalysisProfile'
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            description: Information related to the outcome of the operation
+            type: object
+            properties:
+              count:
+                description: The number of instances updated
+                type: number
+                format: double
+      deprecated: false
+  /UsrChannelSkinanalysisProfiles/count:
+    get:
+      tags:
+        - UsrChannelSkinanalysisProfile
+      summary: Count instances of the model matched by where from the data source.
+      operationId: UsrChannelSkinanalysisProfile.count
+      parameters:
+        - name: where
+          in: query
+          description: Criteria to match model instances
+          required: false
+          type: string
+          format: JSON
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            type: object
+            properties:
+              count:
+                type: number
+                format: double
+      deprecated: false
+definitions:
+  SysChannelUsers:
+    properties:
+      id:
+        maxLength: 255
+        type: string
+      account:
+        maxLength: 32
+        type: string
+      password:
+        maxLength: 255
+        type: string
+      syschannelprofilesId:
+        maxLength: 255
+        type: string
+      isAdmin:
+        type: number
+        format: double
+      isManager:
+        type: number
+        format: double
+      status:
+        type: number
+        format: double
+      createtime:
+        type: string
+        format: date-time
+      email:
+        maxLength: 255
+        type: string
+      realm:
+        maxLength: 32
+        type: string
+      username:
+        maxLength: 255
+        type: string
+      verificationtoken:
+        maxLength: 255
+        type: string
+      emailverified:
+        type: number
+        format: double
+    required:
+      - id
+      - isAdmin
+      - isManager
+      - status
+      - createtime
+      - email
+    additionalProperties: false
+  x-any:
+    properties: {}
+  UsrSkinanalysis:
+    properties:
+      id:
+        maxLength: 255
+        type: string
+      syschannelprofilesId:
+        maxLength: 255
+        type: string
+      syschannelmembersId:
+        maxLength: 255
+        type: string
+      versionsId:
+        maxLength: 255
+        type: string
+      metadata:
+        maxLength: 512
+        type: string
+      s3Path:
+        maxLength: 512
+        type: string
+      skinLibVersion:
+        maxLength: 45
+        type: string
+      insertTime:
+        type: string
+        format: date-time
+    required:
+      - id
+      - syschannelprofilesId
+      - syschannelmembersId
+      - metadata
+      - s3Path
+    additionalProperties: false
+  UsrSkinanalysisRaw:
+    properties:
+      skincareId:
+        maxLength: 255
+        type: string
+      factor:
+        maxLength: 20
+        type: string
+      detectArea:
+        maxLength: 20
+        type: string
+      typeName:
+        maxLength: 20
+        type: string
+      typeValue:
+        maxLength: 20
+        type: string
+      insertTime:
+        type: string
+        format: date-time
+      id:
+        type: number
+        format: double
+    required:
+      - skincareId
+    additionalProperties: false
+  UsrChannelSkinanalysisProfile:
+    properties:
+      usrskinanalysisId:
+        maxLength: 255
+        type: string
+      syschannelprofilesId:
+        maxLength: 255
+        type: string
+      syschannelmembersId:
+        maxLength: 255
+        type: string
+      age:
+        type: number
+        format: double
+      rawData:
+        maxLength: 1024
+        type: string
+      isSynced:
+        type: number
+        format: double
+      insertTime:
+        type: string
+        format: date-time
+      id:
+        type: number
+        format: double
+    required:
+      - usrskinanalysisId
+      - syschannelprofilesId
+      - syschannelmembersId
+      - age
+      - rawData
+      - isSynced
+      - insertTime
+    additionalProperties: false
+basePath: /api
+swagger: '2.0'
+info:
+  x-ibm-name: himirror_china_b2b_dev
+  version: 1.0.0
+  title: HiMirror_China_B2B_dev
+schemes:
+  - http
+host: $(catalog.host)
+consumes:
+  - application/json
+produces:
+  - application/json
+securityDefinitions:
+  clientIdHeader:
+    type: apiKey
+    in: header
+    name: X-IBM-Client-Id
+  clientSecretHeader:
+    in: header
+    name: X-IBM-Client-Secret
+    type: apiKey
+security:
+  - clientIdHeader: []
+    clientSecretHeader: []
+x-ibm-configuration:
+  testable: true
+  enforced: true
+  cors:
+    enabled: true
+  catalogs:
+    apic-dev:
+      properties:
+        runtime-url: $(TARGET_URL)
+    sb:
+      properties:
+        runtime-url: 'http://localhost:4001'
+  assembly:
+    execute:
+      - invoke:
+          target-url: $(runtime-url)$(request.path)$(request.search)

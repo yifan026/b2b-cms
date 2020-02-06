@@ -1,0 +1,159 @@
+{
+  "_meta": {
+    "sources": [
+      "loopback/common/models",
+      "loopback/server/models",
+      "../common/models",
+      "./models"
+    ],
+    "mixins": [
+      "loopback/common/mixins",
+      "loopback/server/mixins",
+      "../node_modules/loopback-cascade-delete-mixin",
+      "../node_modules/loopback-ds-cascade-update-mixin/lib",
+      "../common/mixins",
+      "./mixins"
+    ]
+  },
+  "User": {
+    "dataSource": "db",
+    "public": false
+  },
+  "AccessToken": {
+    "dataSource": "db",
+    "public": false
+  },
+  "ACL": {
+    "dataSource": "db",
+    "public": false
+  },
+  "RoleMapping": {
+    "dataSource": "db",
+    "public": false,
+    "options": {
+      "strictObjectIDCoercion": true
+    }
+  },
+  "Role": {
+    "dataSource": "db",
+    "public": false
+  },
+  "Email": {
+    "dataSource": "Email"
+  },
+  "SysChannelUsers": {
+    "dataSource": "b2b",
+    "public": true,
+    "options": {
+      "emailVerificationRequired": false,
+      "ttl": 7257600
+    }
+  },
+  "Dashboard": {
+    "dataSource": "b2b",
+    "public": true
+  },
+  "UsrSkinanalysis": {
+    "dataSource": "b2b",
+    "public": true
+  },
+  "UsrSkinanalysisRaw": {
+    "dataSource": "b2b",
+    "public": false
+  },
+  "UsrHiskinRaw": {
+    "dataSource": "b2b",
+    "public": false
+  },
+  "UsrChannelProducts": {
+    "dataSource": "b2b",
+    "public": true
+  },
+  "Skincare": {
+    "dataSource": "b2b",
+    "public": true
+  },
+  "UsrHiskin": {
+    "dataSource": "b2b",
+    "public": true
+  },
+  "Hiskin": {
+    "dataSource": "b2b",
+    "public": true
+  },
+  "Member": {
+    "dataSource": "b2b",
+    "public": true
+  },
+  "SkincareWoToken": {
+    "dataSource": "b2b",
+    "public": true
+  },
+  "HiskinWoToken": {
+    "dataSource": "b2b",
+    "public": true
+  },
+  "ProductCategoryList": {
+    "dataSource": "b2b",
+    "public": true
+  },
+  "ProductCategory": {
+    "dataSource": "b2b",
+    "public": true
+  },
+  "ProductTagList": {
+    "dataSource": "b2b",
+    "public": true
+  },
+  "ProductTag": {
+    "dataSource": "b2b",
+    "public": true
+  },
+  "ProductConcernsList": {
+    "dataSource": "b2b",
+    "public": true
+  },
+  "ProductConcern": {
+    "dataSource": "b2b",
+    "public": true
+  },
+  "PricesPromotion": {
+    "dataSource": "b2b",
+    "public": true
+  },
+  "UsrChannelProductAge": {
+    "dataSource": "b2b",
+    "public": false
+  },
+  "ProductWithTCCP": {
+    "dataSource": "b2b",
+    "public": true
+  },
+  "UsrAdvertisements": {
+    "dataSource": "b2b",
+    "public": true
+  },
+  "UsrDigitalSignages": {
+    "dataSource": "b2b",
+    "public": true
+  },
+  "UsrChannelMembers": {
+    "dataSource": "b2b",
+    "public": true
+  },
+  "Recommendations": {
+    "dataSource": "b2b",
+    "public": true
+  },
+  "Container": {
+    "dataSource": "storageAzure",
+    "public": true,
+    "options": {
+      "remoting": {
+        "sharedMethods": {
+          "delete": false
+        }
+      }
+    }
+  }
+}

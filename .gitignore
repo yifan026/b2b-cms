@@ -1,0 +1,10 @@
+/.idea
+/logs/*
+/docs/import.sh
+/docs/b2b_pfs_trans.js
+!/docs/b2b.json
+/node_modules/
+/newrelic*
+/package-lock.json
+/server/storage/*
+/server/datasources.json

@@ -1,0 +1,43 @@
+{
+  "variables": [],
+  "info": {
+    "name": "0.b2b_dev_create",
+    "_postman_id": "22f34bdc-e115-a858-b36c-3e5fce9aca7f",
+    "description": "New collection (imported from DHC)",
+    "schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Container.upload AD",
+      "request": {
+        "url": "http://0.0.0.0:3010/frontend_api/api/Containers/advertisement/upload",
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "multipart/form-data",
+            "description": ""
+          },
+          {
+            "key": "Accept",
+            "value": "application/json, application/xml, text/xml, application/javascript, text/javascript",
+            "description": ""
+          }
+        ],
+        "body": {
+          "mode": "formdata",
+          "formdata": [
+            {
+              "key": "SYSChannelProfiles001",
+              "type": "file",
+              "src": "/home/yfc/文件/himirrortest.jpg"
+            }
+          ]
+        },
+        "description": ""
+      },
+      "response": []
+    }
+
+  ]
+}

@@ -1,0 +1,2936 @@
+{
+  "variables": [],
+  "info": {
+    "name": "0.b2b_dev_create",
+    "_postman_id": "22f34bdc-e115-a858-b36c-3e5fce9aca7f",
+    "description": "New collection (imported from DHC)",
+    "schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Cate5. 刪除分類的產品",
+      "request": {
+        "url": "http://0.0.0.0:3010/frontend_api/api/products/himirrortest/cate/himirrortest?access_token=eyM8Om5Ez8nZXfPb9OM4o2bxsWnudDNPD8xeMVGfY38Zm2i0EcX8uZ29AapQ4ZWD",
+        "method": "DELETE",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "description": ""
+          },
+          {
+            "key": "Accept",
+            "value": "application/json, application/xml, text/xml, application/javascript, text/javascript",
+            "description": ""
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": ""
+        },
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "name": "Cate5. 刪除分類的產品",
+      "request": {
+        "url": "http://0.0.0.0:3010/frontend_api/api/products/himirrortest/cate/himirrortest?access_token=eyM8Om5Ez8nZXfPb9OM4o2bxsWnudDNPD8xeMVGfY38Zm2i0EcX8uZ29AapQ4ZWD",
+        "method": "DELETE",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "description": ""
+          },
+          {
+            "key": "Accept",
+            "value": "application/json, application/xml, text/xml, application/javascript, text/javascript",
+            "description": ""
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": ""
+        },
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "name": "Cate5. 刪除分類的產品",
+      "request": {
+        "url": "http://0.0.0.0:3010/frontend_api/api/products/himirrortest/cate/himirrortest?access_token=eyM8Om5Ez8nZXfPb9OM4o2bxsWnudDNPD8xeMVGfY38Zm2i0EcX8uZ29AapQ4ZWD",
+        "method": "DELETE",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "description": ""
+          },
+          {
+            "key": "Accept",
+            "value": "application/json, application/xml, text/xml, application/javascript, text/javascript",
+            "description": ""
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": ""
+        },
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "name": "Cate5. 刪除分類的產品",
+      "request": {
+        "url": "http://0.0.0.0:3010/frontend_api/api/products/himirrortest/cate/himirrortest?access_token=eyM8Om5Ez8nZXfPb9OM4o2bxsWnudDNPD8xeMVGfY38Zm2i0EcX8uZ29AapQ4ZWD",
+        "method": "DELETE",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "description": ""
+          },
+          {
+            "key": "Accept",
+            "value": "application/json, application/xml, text/xml, application/javascript, text/javascript",
+            "description": ""
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": ""
+        },
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "name": "Cate5. 刪除分類的產品",
+      "request": {
+        "url": "http://0.0.0.0:3010/frontend_api/api/products/himirrortest/cate/himirrortest?access_token=eyM8Om5Ez8nZXfPb9OM4o2bxsWnudDNPD8xeMVGfY38Zm2i0EcX8uZ29AapQ4ZWD",
+        "method": "DELETE",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "description": ""
+          },
+          {
+            "key": "Accept",
+            "value": "application/json, application/xml, text/xml, application/javascript, text/javascript",
+            "description": ""
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": ""
+        },
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "name": "Cate5. 刪除分類的產品",
+      "request": {
+        "url": "http://0.0.0.0:3010/frontend_api/api/products/himirrortest/cate/himirrortest?access_token=eyM8Om5Ez8nZXfPb9OM4o2bxsWnudDNPD8xeMVGfY38Zm2i0EcX8uZ29AapQ4ZWD",
+        "method": "DELETE",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "description": ""
+          },
+          {
+            "key": "Accept",
+            "value": "application/json, application/xml, text/xml, application/javascript, text/javascript",
+            "description": ""
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": ""
+        },
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "name": "Cate5. 刪除分類的產品",
+      "request": {
+        "url": "http://0.0.0.0:3010/frontend_api/api/products/himirrortest/cate/himirrortest?access_token=eyM8Om5Ez8nZXfPb9OM4o2bxsWnudDNPD8xeMVGfY38Zm2i0EcX8uZ29AapQ4ZWD",
+        "method": "DELETE",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "description": ""
+          },
+          {
+            "key": "Accept",
+            "value": "application/json, application/xml, text/xml, application/javascript, text/javascript",
+            "description": ""
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": ""
+        },
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "name": "Cate5. 刪除分類的產品",
+      "request": {
+        "url": "http://0.0.0.0:3010/frontend_api/api/products/himirrortest/cate/himirrortest?access_token=eyM8Om5Ez8nZXfPb9OM4o2bxsWnudDNPD8xeMVGfY38Zm2i0EcX8uZ29AapQ4ZWD",
+        "method": "DELETE",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "description": ""
+          },
+          {
+            "key": "Accept",
+            "value": "application/json, application/xml, text/xml, application/javascript, text/javascript",
+            "description": ""
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": ""
+        },
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "name": "Cate5. 刪除分類的產品",
+      "request": {
+        "url": "http://0.0.0.0:3010/frontend_api/api/products/himirrortest/cate/himirrortest?access_token=eyM8Om5Ez8nZXfPb9OM4o2bxsWnudDNPD8xeMVGfY38Zm2i0EcX8uZ29AapQ4ZWD",
+        "method": "DELETE",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "description": ""
+          },
+          {
+            "key": "Accept",
+            "value": "application/json, application/xml, text/xml, application/javascript, text/javascript",
+            "description": ""
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": ""
+        },
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "name": "Cate5. 刪除分類的產品",
+      "request": {
+        "url": "http://0.0.0.0:3010/frontend_api/api/products/himirrortest/cate/himirrortest?access_token=eyM8Om5Ez8nZXfPb9OM4o2bxsWnudDNPD8xeMVGfY38Zm2i0EcX8uZ29AapQ4ZWD",
+        "method": "DELETE",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "description": ""
+          },
+          {
+            "key": "Accept",
+            "value": "application/json, application/xml, text/xml, application/javascript, text/javascript",
+            "description": ""
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": ""
+        },
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "name": "Cate5. 刪除分類的產品",
+      "request": {
+        "url": "http://0.0.0.0:3010/frontend_api/api/products/himirrortest/cate/himirrortest?access_token=eyM8Om5Ez8nZXfPb9OM4o2bxsWnudDNPD8xeMVGfY38Zm2i0EcX8uZ29AapQ4ZWD",
+        "method": "DELETE",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "description": ""
+          },
+          {
+            "key": "Accept",
+            "value": "application/json, application/xml, text/xml, application/javascript, text/javascript",
+            "description": ""
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": ""
+        },
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "name": "Cate5. 刪除分類的產品",
+      "request": {
+        "url": "http://0.0.0.0:3010/frontend_api/api/products/himirrortest/cate/himirrortest?access_token=eyM8Om5Ez8nZXfPb9OM4o2bxsWnudDNPD8xeMVGfY38Zm2i0EcX8uZ29AapQ4ZWD",
+        "method": "DELETE",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "description": ""
+          },
+          {
+            "key": "Accept",
+            "value": "application/json, application/xml, text/xml, application/javascript, text/javascript",
+            "description": ""
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": ""
+        },
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "name": "Cate5. 刪除分類的產品",
+      "request": {
+        "url": "http://0.0.0.0:3010/frontend_api/api/products/himirrortest/cate/himirrortest?access_token=eyM8Om5Ez8nZXfPb9OM4o2bxsWnudDNPD8xeMVGfY38Zm2i0EcX8uZ29AapQ4ZWD",
+        "method": "DELETE",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "description": ""
+          },
+          {
+            "key": "Accept",
+            "value": "application/json, application/xml, text/xml, application/javascript, text/javascript",
+            "description": ""
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": ""
+        },
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "name": "Cate5. 刪除分類的產品",
+      "request": {
+        "url": "http://0.0.0.0:3010/frontend_api/api/products/himirrortest/cate/himirrortest?access_token=eyM8Om5Ez8nZXfPb9OM4o2bxsWnudDNPD8xeMVGfY38Zm2i0EcX8uZ29AapQ4ZWD",
+        "method": "DELETE",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "description": ""
+          },
+          {
+            "key": "Accept",
+            "value": "application/json, application/xml, text/xml, application/javascript, text/javascript",
+            "description": ""
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": ""
+        },
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "name": "Cate5. 刪除分類的產品",
+      "request": {
+        "url": "http://0.0.0.0:3010/frontend_api/api/products/himirrortest/cate/himirrortest?access_token=eyM8Om5Ez8nZXfPb9OM4o2bxsWnudDNPD8xeMVGfY38Zm2i0EcX8uZ29AapQ4ZWD",
+        "method": "DELETE",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "description": ""
+          },
+          {
+            "key": "Accept",
+            "value": "application/json, application/xml, text/xml, application/javascript, text/javascript",
+            "description": ""
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": ""
+        },
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "name": "Cate5. 刪除分類的產品",
+      "request": {
+        "url": "http://0.0.0.0:3010/frontend_api/api/products/himirrortest/cate/himirrortest?access_token=eyM8Om5Ez8nZXfPb9OM4o2bxsWnudDNPD8xeMVGfY38Zm2i0EcX8uZ29AapQ4ZWD",
+        "method": "DELETE",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "description": ""
+          },
+          {
+            "key": "Accept",
+            "value": "application/json, application/xml, text/xml, application/javascript, text/javascript",
+            "description": ""
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": ""
+        },
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "name": "Cate5. 刪除分類的產品",
+      "request": {
+        "url": "http://0.0.0.0:3010/frontend_api/api/products/himirrortest/cate/himirrortest?access_token=eyM8Om5Ez8nZXfPb9OM4o2bxsWnudDNPD8xeMVGfY38Zm2i0EcX8uZ29AapQ4ZWD",
+        "method": "DELETE",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "description": ""
+          },
+          {
+            "key": "Accept",
+            "value": "application/json, application/xml, text/xml, application/javascript, text/javascript",
+            "description": ""
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": ""
+        },
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "name": "Cate5. 刪除分類的產品",
+      "request": {
+        "url": "http://0.0.0.0:3010/frontend_api/api/products/himirrortest/cate/himirrortest?access_token=eyM8Om5Ez8nZXfPb9OM4o2bxsWnudDNPD8xeMVGfY38Zm2i0EcX8uZ29AapQ4ZWD",
+        "method": "DELETE",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "description": ""
+          },
+          {
+            "key": "Accept",
+            "value": "application/json, application/xml, text/xml, application/javascript, text/javascript",
+            "description": ""
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": ""
+        },
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "name": "Cate5. 刪除分類的產品",
+      "request": {
+        "url": "http://0.0.0.0:3010/frontend_api/api/products/himirrortest/cate/himirrortest?access_token=eyM8Om5Ez8nZXfPb9OM4o2bxsWnudDNPD8xeMVGfY38Zm2i0EcX8uZ29AapQ4ZWD",
+        "method": "DELETE",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "description": ""
+          },
+          {
+            "key": "Accept",
+            "value": "application/json, application/xml, text/xml, application/javascript, text/javascript",
+            "description": ""
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": ""
+        },
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "name": "Cate5. 刪除分類的產品",
+      "request": {
+        "url": "http://0.0.0.0:3010/frontend_api/api/products/himirrortest/cate/himirrortest?access_token=eyM8Om5Ez8nZXfPb9OM4o2bxsWnudDNPD8xeMVGfY38Zm2i0EcX8uZ29AapQ4ZWD",
+        "method": "DELETE",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "description": ""
+          },
+          {
+            "key": "Accept",
+            "value": "application/json, application/xml, text/xml, application/javascript, text/javascript",
+            "description": ""
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": ""
+        },
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "name": "Cate5. 刪除分類的產品",
+      "request": {
+        "url": "http://0.0.0.0:3010/frontend_api/api/products/himirrortest/cate/himirrortest?access_token=eyM8Om5Ez8nZXfPb9OM4o2bxsWnudDNPD8xeMVGfY38Zm2i0EcX8uZ29AapQ4ZWD",
+        "method": "DELETE",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "description": ""
+          },
+          {
+            "key": "Accept",
+            "value": "application/json, application/xml, text/xml, application/javascript, text/javascript",
+            "description": ""
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": ""
+        },
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "name": "Cate5. 刪除分類的產品",
+      "request": {
+        "url": "http://0.0.0.0:3010/frontend_api/api/products/himirrortest/cate/himirrortest?access_token=eyM8Om5Ez8nZXfPb9OM4o2bxsWnudDNPD8xeMVGfY38Zm2i0EcX8uZ29AapQ4ZWD",
+        "method": "DELETE",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "description": ""
+          },
+          {
+            "key": "Accept",
+            "value": "application/json, application/xml, text/xml, application/javascript, text/javascript",
+            "description": ""
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": ""
+        },
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "name": "Cate5. 刪除分類的產品",
+      "request": {
+        "url": "http://0.0.0.0:3010/frontend_api/api/products/himirrortest/cate/himirrortest?access_token=eyM8Om5Ez8nZXfPb9OM4o2bxsWnudDNPD8xeMVGfY38Zm2i0EcX8uZ29AapQ4ZWD",
+        "method": "DELETE",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "description": ""
+          },
+          {
+            "key": "Accept",
+            "value": "application/json, application/xml, text/xml, application/javascript, text/javascript",
+            "description": ""
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": ""
+        },
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "name": "Cate5. 刪除分類的產品",
+      "request": {
+        "url": "http://0.0.0.0:3010/frontend_api/api/products/himirrortest/cate/himirrortest?access_token=eyM8Om5Ez8nZXfPb9OM4o2bxsWnudDNPD8xeMVGfY38Zm2i0EcX8uZ29AapQ4ZWD",
+        "method": "DELETE",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "description": ""
+          },
+          {
+            "key": "Accept",
+            "value": "application/json, application/xml, text/xml, application/javascript, text/javascript",
+            "description": ""
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": ""
+        },
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "name": "Cate5. 刪除分類的產品",
+      "request": {
+        "url": "http://0.0.0.0:3010/frontend_api/api/products/himirrortest/cate/himirrortest?access_token=eyM8Om5Ez8nZXfPb9OM4o2bxsWnudDNPD8xeMVGfY38Zm2i0EcX8uZ29AapQ4ZWD",
+        "method": "DELETE",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "description": ""
+          },
+          {
+            "key": "Accept",
+            "value": "application/json, application/xml, text/xml, application/javascript, text/javascript",
+            "description": ""
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": ""
+        },
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "name": "Cate5. 刪除分類的產品",
+      "request": {
+        "url": "http://0.0.0.0:3010/frontend_api/api/products/himirrortest/cate/himirrortest?access_token=eyM8Om5Ez8nZXfPb9OM4o2bxsWnudDNPD8xeMVGfY38Zm2i0EcX8uZ29AapQ4ZWD",
+        "method": "DELETE",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "description": ""
+          },
+          {
+            "key": "Accept",
+            "value": "application/json, application/xml, text/xml, application/javascript, text/javascript",
+            "description": ""
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": ""
+        },
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "name": "Cate5. 刪除分類的產品",
+      "request": {
+        "url": "http://0.0.0.0:3010/frontend_api/api/products/himirrortest/cate/himirrortest?access_token=eyM8Om5Ez8nZXfPb9OM4o2bxsWnudDNPD8xeMVGfY38Zm2i0EcX8uZ29AapQ4ZWD",
+        "method": "DELETE",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "description": ""
+          },
+          {
+            "key": "Accept",
+            "value": "application/json, application/xml, text/xml, application/javascript, text/javascript",
+            "description": ""
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": ""
+        },
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "name": "Cate5. 刪除分類的產品",
+      "request": {
+        "url": "http://0.0.0.0:3010/frontend_api/api/products/himirrortest/cate/himirrortest?access_token=eyM8Om5Ez8nZXfPb9OM4o2bxsWnudDNPD8xeMVGfY38Zm2i0EcX8uZ29AapQ4ZWD",
+        "method": "DELETE",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "description": ""
+          },
+          {
+            "key": "Accept",
+            "value": "application/json, application/xml, text/xml, application/javascript, text/javascript",
+            "description": ""
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": ""
+        },
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "name": "Cate5. 刪除分類的產品",
+      "request": {
+        "url": "http://0.0.0.0:3010/frontend_api/api/products/himirrortest/cate/himirrortest?access_token=eyM8Om5Ez8nZXfPb9OM4o2bxsWnudDNPD8xeMVGfY38Zm2i0EcX8uZ29AapQ4ZWD",
+        "method": "DELETE",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "description": ""
+          },
+          {
+            "key": "Accept",
+            "value": "application/json, application/xml, text/xml, application/javascript, text/javascript",
+            "description": ""
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": ""
+        },
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "name": "Cate5. 刪除分類的產品",
+      "request": {
+        "url": "http://0.0.0.0:3010/frontend_api/api/products/himirrortest/cate/himirrortest?access_token=eyM8Om5Ez8nZXfPb9OM4o2bxsWnudDNPD8xeMVGfY38Zm2i0EcX8uZ29AapQ4ZWD",
+        "method": "DELETE",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "description": ""
+          },
+          {
+            "key": "Accept",
+            "value": "application/json, application/xml, text/xml, application/javascript, text/javascript",
+            "description": ""
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": ""
+        },
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "name": "Cate5. 刪除分類的產品",
+      "request": {
+        "url": "http://0.0.0.0:3010/frontend_api/api/products/himirrortest/cate/himirrortest?access_token=eyM8Om5Ez8nZXfPb9OM4o2bxsWnudDNPD8xeMVGfY38Zm2i0EcX8uZ29AapQ4ZWD",
+        "method": "DELETE",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "description": ""
+          },
+          {
+            "key": "Accept",
+            "value": "application/json, application/xml, text/xml, application/javascript, text/javascript",
+            "description": ""
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": ""
+        },
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "name": "Cate5. 刪除分類的產品",
+      "request": {
+        "url": "http://0.0.0.0:3010/frontend_api/api/products/himirrortest/cate/himirrortest?access_token=eyM8Om5Ez8nZXfPb9OM4o2bxsWnudDNPD8xeMVGfY38Zm2i0EcX8uZ29AapQ4ZWD",
+        "method": "DELETE",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "description": ""
+          },
+          {
+            "key": "Accept",
+            "value": "application/json, application/xml, text/xml, application/javascript, text/javascript",
+            "description": ""
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": ""
+        },
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "name": "Cate5. 刪除分類的產品",
+      "request": {
+        "url": "http://0.0.0.0:3010/frontend_api/api/products/himirrortest/cate/himirrortest?access_token=eyM8Om5Ez8nZXfPb9OM4o2bxsWnudDNPD8xeMVGfY38Zm2i0EcX8uZ29AapQ4ZWD",
+        "method": "DELETE",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "description": ""
+          },
+          {
+            "key": "Accept",
+            "value": "application/json, application/xml, text/xml, application/javascript, text/javascript",
+            "description": ""
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": ""
+        },
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "name": "Cate5. 刪除分類的產品",
+      "request": {
+        "url": "http://0.0.0.0:3010/frontend_api/api/products/himirrortest/cate/himirrortest?access_token=eyM8Om5Ez8nZXfPb9OM4o2bxsWnudDNPD8xeMVGfY38Zm2i0EcX8uZ29AapQ4ZWD",
+        "method": "DELETE",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "description": ""
+          },
+          {
+            "key": "Accept",
+            "value": "application/json, application/xml, text/xml, application/javascript, text/javascript",
+            "description": ""
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": ""
+        },
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "name": "Cate5. 刪除分類的產品",
+      "request": {
+        "url": "http://0.0.0.0:3010/frontend_api/api/products/himirrortest/cate/himirrortest?access_token=eyM8Om5Ez8nZXfPb9OM4o2bxsWnudDNPD8xeMVGfY38Zm2i0EcX8uZ29AapQ4ZWD",
+        "method": "DELETE",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "description": ""
+          },
+          {
+            "key": "Accept",
+            "value": "application/json, application/xml, text/xml, application/javascript, text/javascript",
+            "description": ""
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": ""
+        },
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "name": "Cate5. 刪除分類的產品",
+      "request": {
+        "url": "http://0.0.0.0:3010/frontend_api/api/products/himirrortest/cate/himirrortest?access_token=eyM8Om5Ez8nZXfPb9OM4o2bxsWnudDNPD8xeMVGfY38Zm2i0EcX8uZ29AapQ4ZWD",
+        "method": "DELETE",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "description": ""
+          },
+          {
+            "key": "Accept",
+            "value": "application/json, application/xml, text/xml, application/javascript, text/javascript",
+            "description": ""
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": ""
+        },
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "name": "Cate5. 刪除分類的產品",
+      "request": {
+        "url": "http://0.0.0.0:3010/frontend_api/api/products/himirrortest/cate/himirrortest?access_token=eyM8Om5Ez8nZXfPb9OM4o2bxsWnudDNPD8xeMVGfY38Zm2i0EcX8uZ29AapQ4ZWD",
+        "method": "DELETE",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "description": ""
+          },
+          {
+            "key": "Accept",
+            "value": "application/json, application/xml, text/xml, application/javascript, text/javascript",
+            "description": ""
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": ""
+        },
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "name": "Cate5. 刪除分類的產品",
+      "request": {
+        "url": "http://0.0.0.0:3010/frontend_api/api/products/himirrortest/cate/himirrortest?access_token=eyM8Om5Ez8nZXfPb9OM4o2bxsWnudDNPD8xeMVGfY38Zm2i0EcX8uZ29AapQ4ZWD",
+        "method": "DELETE",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "description": ""
+          },
+          {
+            "key": "Accept",
+            "value": "application/json, application/xml, text/xml, application/javascript, text/javascript",
+            "description": ""
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": ""
+        },
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "name": "Cate5. 刪除分類的產品",
+      "request": {
+        "url": "http://0.0.0.0:3010/frontend_api/api/products/himirrortest/cate/himirrortest?access_token=eyM8Om5Ez8nZXfPb9OM4o2bxsWnudDNPD8xeMVGfY38Zm2i0EcX8uZ29AapQ4ZWD",
+        "method": "DELETE",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "description": ""
+          },
+          {
+            "key": "Accept",
+            "value": "application/json, application/xml, text/xml, application/javascript, text/javascript",
+            "description": ""
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": ""
+        },
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "name": "Cate5. 刪除分類的產品",
+      "request": {
+        "url": "http://0.0.0.0:3010/frontend_api/api/products/himirrortest/cate/himirrortest?access_token=eyM8Om5Ez8nZXfPb9OM4o2bxsWnudDNPD8xeMVGfY38Zm2i0EcX8uZ29AapQ4ZWD",
+        "method": "DELETE",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "description": ""
+          },
+          {
+            "key": "Accept",
+            "value": "application/json, application/xml, text/xml, application/javascript, text/javascript",
+            "description": ""
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": ""
+        },
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "name": "Cate5. 刪除分類的產品",
+      "request": {
+        "url": "http://0.0.0.0:3010/frontend_api/api/products/himirrortest/cate/himirrortest?access_token=eyM8Om5Ez8nZXfPb9OM4o2bxsWnudDNPD8xeMVGfY38Zm2i0EcX8uZ29AapQ4ZWD",
+        "method": "DELETE",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "description": ""
+          },
+          {
+            "key": "Accept",
+            "value": "application/json, application/xml, text/xml, application/javascript, text/javascript",
+            "description": ""
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": ""
+        },
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "name": "Cate5. 刪除分類的產品",
+      "request": {
+        "url": "http://0.0.0.0:3010/frontend_api/api/products/himirrortest/cate/himirrortest?access_token=eyM8Om5Ez8nZXfPb9OM4o2bxsWnudDNPD8xeMVGfY38Zm2i0EcX8uZ29AapQ4ZWD",
+        "method": "DELETE",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "description": ""
+          },
+          {
+            "key": "Accept",
+            "value": "application/json, application/xml, text/xml, application/javascript, text/javascript",
+            "description": ""
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": ""
+        },
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "name": "Cate5. 刪除分類的產品",
+      "request": {
+        "url": "http://0.0.0.0:3010/frontend_api/api/products/himirrortest/cate/himirrortest?access_token=eyM8Om5Ez8nZXfPb9OM4o2bxsWnudDNPD8xeMVGfY38Zm2i0EcX8uZ29AapQ4ZWD",
+        "method": "DELETE",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "description": ""
+          },
+          {
+            "key": "Accept",
+            "value": "application/json, application/xml, text/xml, application/javascript, text/javascript",
+            "description": ""
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": ""
+        },
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "name": "Cate5. 刪除分類的產品",
+      "request": {
+        "url": "http://0.0.0.0:3010/frontend_api/api/products/himirrortest/cate/himirrortest?access_token=eyM8Om5Ez8nZXfPb9OM4o2bxsWnudDNPD8xeMVGfY38Zm2i0EcX8uZ29AapQ4ZWD",
+        "method": "DELETE",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "description": ""
+          },
+          {
+            "key": "Accept",
+            "value": "application/json, application/xml, text/xml, application/javascript, text/javascript",
+            "description": ""
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": ""
+        },
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "name": "Cate5. 刪除分類的產品",
+      "request": {
+        "url": "http://0.0.0.0:3010/frontend_api/api/products/himirrortest/cate/himirrortest?access_token=eyM8Om5Ez8nZXfPb9OM4o2bxsWnudDNPD8xeMVGfY38Zm2i0EcX8uZ29AapQ4ZWD",
+        "method": "DELETE",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "description": ""
+          },
+          {
+            "key": "Accept",
+            "value": "application/json, application/xml, text/xml, application/javascript, text/javascript",
+            "description": ""
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": ""
+        },
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "name": "Cate5. 刪除分類的產品",
+      "request": {
+        "url": "http://0.0.0.0:3010/frontend_api/api/products/himirrortest/cate/himirrortest?access_token=eyM8Om5Ez8nZXfPb9OM4o2bxsWnudDNPD8xeMVGfY38Zm2i0EcX8uZ29AapQ4ZWD",
+        "method": "DELETE",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "description": ""
+          },
+          {
+            "key": "Accept",
+            "value": "application/json, application/xml, text/xml, application/javascript, text/javascript",
+            "description": ""
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": ""
+        },
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "name": "Cate5. 刪除分類的產品",
+      "request": {
+        "url": "http://0.0.0.0:3010/frontend_api/api/products/himirrortest/cate/himirrortest?access_token=eyM8Om5Ez8nZXfPb9OM4o2bxsWnudDNPD8xeMVGfY38Zm2i0EcX8uZ29AapQ4ZWD",
+        "method": "DELETE",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "description": ""
+          },
+          {
+            "key": "Accept",
+            "value": "application/json, application/xml, text/xml, application/javascript, text/javascript",
+            "description": ""
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": ""
+        },
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "name": "Cate5. 刪除分類的產品",
+      "request": {
+        "url": "http://0.0.0.0:3010/frontend_api/api/products/himirrortest/cate/himirrortest?access_token=eyM8Om5Ez8nZXfPb9OM4o2bxsWnudDNPD8xeMVGfY38Zm2i0EcX8uZ29AapQ4ZWD",
+        "method": "DELETE",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "description": ""
+          },
+          {
+            "key": "Accept",
+            "value": "application/json, application/xml, text/xml, application/javascript, text/javascript",
+            "description": ""
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": ""
+        },
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "name": "Cate5. 刪除分類的產品",
+      "request": {
+        "url": "http://0.0.0.0:3010/frontend_api/api/products/himirrortest/cate/himirrortest?access_token=eyM8Om5Ez8nZXfPb9OM4o2bxsWnudDNPD8xeMVGfY38Zm2i0EcX8uZ29AapQ4ZWD",
+        "method": "DELETE",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "description": ""
+          },
+          {
+            "key": "Accept",
+            "value": "application/json, application/xml, text/xml, application/javascript, text/javascript",
+            "description": ""
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": ""
+        },
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "name": "Cate5. 刪除分類的產品",
+      "request": {
+        "url": "http://0.0.0.0:3010/frontend_api/api/products/himirrortest/cate/himirrortest?access_token=eyM8Om5Ez8nZXfPb9OM4o2bxsWnudDNPD8xeMVGfY38Zm2i0EcX8uZ29AapQ4ZWD",
+        "method": "DELETE",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "description": ""
+          },
+          {
+            "key": "Accept",
+            "value": "application/json, application/xml, text/xml, application/javascript, text/javascript",
+            "description": ""
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": ""
+        },
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "name": "Cate5. 刪除分類的產品",
+      "request": {
+        "url": "http://0.0.0.0:3010/frontend_api/api/products/himirrortest/cate/himirrortest?access_token=eyM8Om5Ez8nZXfPb9OM4o2bxsWnudDNPD8xeMVGfY38Zm2i0EcX8uZ29AapQ4ZWD",
+        "method": "DELETE",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "description": ""
+          },
+          {
+            "key": "Accept",
+            "value": "application/json, application/xml, text/xml, application/javascript, text/javascript",
+            "description": ""
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": ""
+        },
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "name": "Cate5. 刪除分類的產品",
+      "request": {
+        "url": "http://0.0.0.0:3010/frontend_api/api/products/himirrortest/cate/himirrortest?access_token=eyM8Om5Ez8nZXfPb9OM4o2bxsWnudDNPD8xeMVGfY38Zm2i0EcX8uZ29AapQ4ZWD",
+        "method": "DELETE",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "description": ""
+          },
+          {
+            "key": "Accept",
+            "value": "application/json, application/xml, text/xml, application/javascript, text/javascript",
+            "description": ""
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": ""
+        },
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "name": "Cate5. 刪除分類的產品",
+      "request": {
+        "url": "http://0.0.0.0:3010/frontend_api/api/products/himirrortest/cate/himirrortest?access_token=eyM8Om5Ez8nZXfPb9OM4o2bxsWnudDNPD8xeMVGfY38Zm2i0EcX8uZ29AapQ4ZWD",
+        "method": "DELETE",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "description": ""
+          },
+          {
+            "key": "Accept",
+            "value": "application/json, application/xml, text/xml, application/javascript, text/javascript",
+            "description": ""
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": ""
+        },
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "name": "Cate5. 刪除分類的產品",
+      "request": {
+        "url": "http://0.0.0.0:3010/frontend_api/api/products/himirrortest/cate/himirrortest?access_token=eyM8Om5Ez8nZXfPb9OM4o2bxsWnudDNPD8xeMVGfY38Zm2i0EcX8uZ29AapQ4ZWD",
+        "method": "DELETE",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "description": ""
+          },
+          {
+            "key": "Accept",
+            "value": "application/json, application/xml, text/xml, application/javascript, text/javascript",
+            "description": ""
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": ""
+        },
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "name": "Cate5. 刪除分類的產品",
+      "request": {
+        "url": "http://0.0.0.0:3010/frontend_api/api/products/himirrortest/cate/himirrortest?access_token=eyM8Om5Ez8nZXfPb9OM4o2bxsWnudDNPD8xeMVGfY38Zm2i0EcX8uZ29AapQ4ZWD",
+        "method": "DELETE",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "description": ""
+          },
+          {
+            "key": "Accept",
+            "value": "application/json, application/xml, text/xml, application/javascript, text/javascript",
+            "description": ""
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": ""
+        },
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "name": "Cate5. 刪除分類的產品",
+      "request": {
+        "url": "http://0.0.0.0:3010/frontend_api/api/products/himirrortest/cate/himirrortest?access_token=eyM8Om5Ez8nZXfPb9OM4o2bxsWnudDNPD8xeMVGfY38Zm2i0EcX8uZ29AapQ4ZWD",
+        "method": "DELETE",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "description": ""
+          },
+          {
+            "key": "Accept",
+            "value": "application/json, application/xml, text/xml, application/javascript, text/javascript",
+            "description": ""
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": ""
+        },
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "name": "Cate5. 刪除分類的產品",
+      "request": {
+        "url": "http://0.0.0.0:3010/frontend_api/api/products/himirrortest/cate/himirrortest?access_token=eyM8Om5Ez8nZXfPb9OM4o2bxsWnudDNPD8xeMVGfY38Zm2i0EcX8uZ29AapQ4ZWD",
+        "method": "DELETE",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "description": ""
+          },
+          {
+            "key": "Accept",
+            "value": "application/json, application/xml, text/xml, application/javascript, text/javascript",
+            "description": ""
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": ""
+        },
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "name": "Cate5. 刪除分類的產品",
+      "request": {
+        "url": "http://0.0.0.0:3010/frontend_api/api/products/himirrortest/cate/himirrortest?access_token=eyM8Om5Ez8nZXfPb9OM4o2bxsWnudDNPD8xeMVGfY38Zm2i0EcX8uZ29AapQ4ZWD",
+        "method": "DELETE",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "description": ""
+          },
+          {
+            "key": "Accept",
+            "value": "application/json, application/xml, text/xml, application/javascript, text/javascript",
+            "description": ""
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": ""
+        },
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "name": "Cate5. 刪除分類的產品",
+      "request": {
+        "url": "http://0.0.0.0:3010/frontend_api/api/products/himirrortest/cate/himirrortest?access_token=eyM8Om5Ez8nZXfPb9OM4o2bxsWnudDNPD8xeMVGfY38Zm2i0EcX8uZ29AapQ4ZWD",
+        "method": "DELETE",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "description": ""
+          },
+          {
+            "key": "Accept",
+            "value": "application/json, application/xml, text/xml, application/javascript, text/javascript",
+            "description": ""
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": ""
+        },
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "name": "Cate5. 刪除分類的產品",
+      "request": {
+        "url": "http://0.0.0.0:3010/frontend_api/api/products/himirrortest/cate/himirrortest?access_token=eyM8Om5Ez8nZXfPb9OM4o2bxsWnudDNPD8xeMVGfY38Zm2i0EcX8uZ29AapQ4ZWD",
+        "method": "DELETE",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "description": ""
+          },
+          {
+            "key": "Accept",
+            "value": "application/json, application/xml, text/xml, application/javascript, text/javascript",
+            "description": ""
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": ""
+        },
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "name": "Cate5. 刪除分類的產品",
+      "request": {
+        "url": "http://0.0.0.0:3010/frontend_api/api/products/himirrortest/cate/himirrortest?access_token=eyM8Om5Ez8nZXfPb9OM4o2bxsWnudDNPD8xeMVGfY38Zm2i0EcX8uZ29AapQ4ZWD",
+        "method": "DELETE",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "description": ""
+          },
+          {
+            "key": "Accept",
+            "value": "application/json, application/xml, text/xml, application/javascript, text/javascript",
+            "description": ""
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": ""
+        },
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "name": "Cate5. 刪除分類的產品",
+      "request": {
+        "url": "http://0.0.0.0:3010/frontend_api/api/products/himirrortest/cate/himirrortest?access_token=eyM8Om5Ez8nZXfPb9OM4o2bxsWnudDNPD8xeMVGfY38Zm2i0EcX8uZ29AapQ4ZWD",
+        "method": "DELETE",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "description": ""
+          },
+          {
+            "key": "Accept",
+            "value": "application/json, application/xml, text/xml, application/javascript, text/javascript",
+            "description": ""
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": ""
+        },
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "name": "Cate5. 刪除分類的產品",
+      "request": {
+        "url": "http://0.0.0.0:3010/frontend_api/api/products/himirrortest/cate/himirrortest?access_token=eyM8Om5Ez8nZXfPb9OM4o2bxsWnudDNPD8xeMVGfY38Zm2i0EcX8uZ29AapQ4ZWD",
+        "method": "DELETE",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "description": ""
+          },
+          {
+            "key": "Accept",
+            "value": "application/json, application/xml, text/xml, application/javascript, text/javascript",
+            "description": ""
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": ""
+        },
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "name": "Cate5. 刪除分類的產品",
+      "request": {
+        "url": "http://0.0.0.0:3010/frontend_api/api/products/himirrortest/cate/himirrortest?access_token=eyM8Om5Ez8nZXfPb9OM4o2bxsWnudDNPD8xeMVGfY38Zm2i0EcX8uZ29AapQ4ZWD",
+        "method": "DELETE",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "description": ""
+          },
+          {
+            "key": "Accept",
+            "value": "application/json, application/xml, text/xml, application/javascript, text/javascript",
+            "description": ""
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": ""
+        },
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "name": "Cate5. 刪除分類的產品",
+      "request": {
+        "url": "http://0.0.0.0:3010/frontend_api/api/products/himirrortest/cate/himirrortest?access_token=eyM8Om5Ez8nZXfPb9OM4o2bxsWnudDNPD8xeMVGfY38Zm2i0EcX8uZ29AapQ4ZWD",
+        "method": "DELETE",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "description": ""
+          },
+          {
+            "key": "Accept",
+            "value": "application/json, application/xml, text/xml, application/javascript, text/javascript",
+            "description": ""
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": ""
+        },
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "name": "Cate5. 刪除分類的產品",
+      "request": {
+        "url": "http://0.0.0.0:3010/frontend_api/api/products/himirrortest/cate/himirrortest?access_token=eyM8Om5Ez8nZXfPb9OM4o2bxsWnudDNPD8xeMVGfY38Zm2i0EcX8uZ29AapQ4ZWD",
+        "method": "DELETE",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "description": ""
+          },
+          {
+            "key": "Accept",
+            "value": "application/json, application/xml, text/xml, application/javascript, text/javascript",
+            "description": ""
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": ""
+        },
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "name": "Cate5. 刪除分類的產品",
+      "request": {
+        "url": "http://0.0.0.0:3010/frontend_api/api/products/himirrortest/cate/himirrortest?access_token=eyM8Om5Ez8nZXfPb9OM4o2bxsWnudDNPD8xeMVGfY38Zm2i0EcX8uZ29AapQ4ZWD",
+        "method": "DELETE",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "description": ""
+          },
+          {
+            "key": "Accept",
+            "value": "application/json, application/xml, text/xml, application/javascript, text/javascript",
+            "description": ""
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": ""
+        },
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "name": "Cate5. 刪除分類的產品",
+      "request": {
+        "url": "http://0.0.0.0:3010/frontend_api/api/products/himirrortest/cate/himirrortest?access_token=eyM8Om5Ez8nZXfPb9OM4o2bxsWnudDNPD8xeMVGfY38Zm2i0EcX8uZ29AapQ4ZWD",
+        "method": "DELETE",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "description": ""
+          },
+          {
+            "key": "Accept",
+            "value": "application/json, application/xml, text/xml, application/javascript, text/javascript",
+            "description": ""
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": ""
+        },
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "name": "Cate5. 刪除分類的產品",
+      "request": {
+        "url": "http://0.0.0.0:3010/frontend_api/api/products/himirrortest/cate/himirrortest?access_token=eyM8Om5Ez8nZXfPb9OM4o2bxsWnudDNPD8xeMVGfY38Zm2i0EcX8uZ29AapQ4ZWD",
+        "method": "DELETE",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "description": ""
+          },
+          {
+            "key": "Accept",
+            "value": "application/json, application/xml, text/xml, application/javascript, text/javascript",
+            "description": ""
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": ""
+        },
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "name": "Cate5. 刪除分類的產品",
+      "request": {
+        "url": "http://0.0.0.0:3010/frontend_api/api/products/himirrortest/cate/himirrortest?access_token=eyM8Om5Ez8nZXfPb9OM4o2bxsWnudDNPD8xeMVGfY38Zm2i0EcX8uZ29AapQ4ZWD",
+        "method": "DELETE",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "description": ""
+          },
+          {
+            "key": "Accept",
+            "value": "application/json, application/xml, text/xml, application/javascript, text/javascript",
+            "description": ""
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": ""
+        },
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "name": "Cate5. 刪除分類的產品",
+      "request": {
+        "url": "http://0.0.0.0:3010/frontend_api/api/products/himirrortest/cate/himirrortest?access_token=eyM8Om5Ez8nZXfPb9OM4o2bxsWnudDNPD8xeMVGfY38Zm2i0EcX8uZ29AapQ4ZWD",
+        "method": "DELETE",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "description": ""
+          },
+          {
+            "key": "Accept",
+            "value": "application/json, application/xml, text/xml, application/javascript, text/javascript",
+            "description": ""
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": ""
+        },
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "name": "Cate5. 刪除分類的產品",
+      "request": {
+        "url": "http://0.0.0.0:3010/frontend_api/api/products/himirrortest/cate/himirrortest?access_token=eyM8Om5Ez8nZXfPb9OM4o2bxsWnudDNPD8xeMVGfY38Zm2i0EcX8uZ29AapQ4ZWD",
+        "method": "DELETE",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "description": ""
+          },
+          {
+            "key": "Accept",
+            "value": "application/json, application/xml, text/xml, application/javascript, text/javascript",
+            "description": ""
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": ""
+        },
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "name": "Cate5. 刪除分類的產品",
+      "request": {
+        "url": "http://0.0.0.0:3010/frontend_api/api/products/himirrortest/cate/himirrortest?access_token=eyM8Om5Ez8nZXfPb9OM4o2bxsWnudDNPD8xeMVGfY38Zm2i0EcX8uZ29AapQ4ZWD",
+        "method": "DELETE",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "description": ""
+          },
+          {
+            "key": "Accept",
+            "value": "application/json, application/xml, text/xml, application/javascript, text/javascript",
+            "description": ""
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": ""
+        },
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "name": "Cate5. 刪除分類的產品",
+      "request": {
+        "url": "http://0.0.0.0:3010/frontend_api/api/products/himirrortest/cate/himirrortest?access_token=eyM8Om5Ez8nZXfPb9OM4o2bxsWnudDNPD8xeMVGfY38Zm2i0EcX8uZ29AapQ4ZWD",
+        "method": "DELETE",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "description": ""
+          },
+          {
+            "key": "Accept",
+            "value": "application/json, application/xml, text/xml, application/javascript, text/javascript",
+            "description": ""
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": ""
+        },
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "name": "Cate5. 刪除分類的產品",
+      "request": {
+        "url": "http://0.0.0.0:3010/frontend_api/api/products/himirrortest/cate/himirrortest?access_token=eyM8Om5Ez8nZXfPb9OM4o2bxsWnudDNPD8xeMVGfY38Zm2i0EcX8uZ29AapQ4ZWD",
+        "method": "DELETE",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "description": ""
+          },
+          {
+            "key": "Accept",
+            "value": "application/json, application/xml, text/xml, application/javascript, text/javascript",
+            "description": ""
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": ""
+        },
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "name": "Cate5. 刪除分類的產品",
+      "request": {
+        "url": "http://0.0.0.0:3010/frontend_api/api/products/himirrortest/cate/himirrortest?access_token=eyM8Om5Ez8nZXfPb9OM4o2bxsWnudDNPD8xeMVGfY38Zm2i0EcX8uZ29AapQ4ZWD",
+        "method": "DELETE",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "description": ""
+          },
+          {
+            "key": "Accept",
+            "value": "application/json, application/xml, text/xml, application/javascript, text/javascript",
+            "description": ""
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": ""
+        },
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "name": "Cate5. 刪除分類的產品",
+      "request": {
+        "url": "http://0.0.0.0:3010/frontend_api/api/products/himirrortest/cate/himirrortest?access_token=eyM8Om5Ez8nZXfPb9OM4o2bxsWnudDNPD8xeMVGfY38Zm2i0EcX8uZ29AapQ4ZWD",
+        "method": "DELETE",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "description": ""
+          },
+          {
+            "key": "Accept",
+            "value": "application/json, application/xml, text/xml, application/javascript, text/javascript",
+            "description": ""
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": ""
+        },
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "name": "Cate5. 刪除分類的產品",
+      "request": {
+        "url": "http://0.0.0.0:3010/frontend_api/api/products/himirrortest/cate/himirrortest?access_token=eyM8Om5Ez8nZXfPb9OM4o2bxsWnudDNPD8xeMVGfY38Zm2i0EcX8uZ29AapQ4ZWD",
+        "method": "DELETE",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "description": ""
+          },
+          {
+            "key": "Accept",
+            "value": "application/json, application/xml, text/xml, application/javascript, text/javascript",
+            "description": ""
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": ""
+        },
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "name": "Cate5. 刪除分類的產品",
+      "request": {
+        "url": "http://0.0.0.0:3010/frontend_api/api/products/himirrortest/cate/himirrortest?access_token=eyM8Om5Ez8nZXfPb9OM4o2bxsWnudDNPD8xeMVGfY38Zm2i0EcX8uZ29AapQ4ZWD",
+        "method": "DELETE",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "description": ""
+          },
+          {
+            "key": "Accept",
+            "value": "application/json, application/xml, text/xml, application/javascript, text/javascript",
+            "description": ""
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": ""
+        },
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "name": "Cate5. 刪除分類的產品",
+      "request": {
+        "url": "http://0.0.0.0:3010/frontend_api/api/products/himirrortest/cate/himirrortest?access_token=eyM8Om5Ez8nZXfPb9OM4o2bxsWnudDNPD8xeMVGfY38Zm2i0EcX8uZ29AapQ4ZWD",
+        "method": "DELETE",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "description": ""
+          },
+          {
+            "key": "Accept",
+            "value": "application/json, application/xml, text/xml, application/javascript, text/javascript",
+            "description": ""
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": ""
+        },
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "name": "Cate5. 刪除分類的產品",
+      "request": {
+        "url": "http://0.0.0.0:3010/frontend_api/api/products/himirrortest/cate/himirrortest?access_token=eyM8Om5Ez8nZXfPb9OM4o2bxsWnudDNPD8xeMVGfY38Zm2i0EcX8uZ29AapQ4ZWD",
+        "method": "DELETE",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "description": ""
+          },
+          {
+            "key": "Accept",
+            "value": "application/json, application/xml, text/xml, application/javascript, text/javascript",
+            "description": ""
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": ""
+        },
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "name": "Cate5. 刪除分類的產品",
+      "request": {
+        "url": "http://0.0.0.0:3010/frontend_api/api/products/himirrortest/cate/himirrortest?access_token=eyM8Om5Ez8nZXfPb9OM4o2bxsWnudDNPD8xeMVGfY38Zm2i0EcX8uZ29AapQ4ZWD",
+        "method": "DELETE",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "description": ""
+          },
+          {
+            "key": "Accept",
+            "value": "application/json, application/xml, text/xml, application/javascript, text/javascript",
+            "description": ""
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": ""
+        },
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "name": "Cate5. 刪除分類的產品",
+      "request": {
+        "url": "http://0.0.0.0:3010/frontend_api/api/products/himirrortest/cate/himirrortest?access_token=eyM8Om5Ez8nZXfPb9OM4o2bxsWnudDNPD8xeMVGfY38Zm2i0EcX8uZ29AapQ4ZWD",
+        "method": "DELETE",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "description": ""
+          },
+          {
+            "key": "Accept",
+            "value": "application/json, application/xml, text/xml, application/javascript, text/javascript",
+            "description": ""
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": ""
+        },
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "name": "Cate5. 刪除分類的產品",
+      "request": {
+        "url": "http://0.0.0.0:3010/frontend_api/api/products/himirrortest/cate/himirrortest?access_token=eyM8Om5Ez8nZXfPb9OM4o2bxsWnudDNPD8xeMVGfY38Zm2i0EcX8uZ29AapQ4ZWD",
+        "method": "DELETE",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "description": ""
+          },
+          {
+            "key": "Accept",
+            "value": "application/json, application/xml, text/xml, application/javascript, text/javascript",
+            "description": ""
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": ""
+        },
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "name": "Cate5. 刪除分類的產品",
+      "request": {
+        "url": "http://0.0.0.0:3010/frontend_api/api/products/himirrortest/cate/himirrortest?access_token=eyM8Om5Ez8nZXfPb9OM4o2bxsWnudDNPD8xeMVGfY38Zm2i0EcX8uZ29AapQ4ZWD",
+        "method": "DELETE",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "description": ""
+          },
+          {
+            "key": "Accept",
+            "value": "application/json, application/xml, text/xml, application/javascript, text/javascript",
+            "description": ""
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": ""
+        },
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "name": "Cate5. 刪除分類的產品",
+      "request": {
+        "url": "http://0.0.0.0:3010/frontend_api/api/products/himirrortest/cate/himirrortest?access_token=eyM8Om5Ez8nZXfPb9OM4o2bxsWnudDNPD8xeMVGfY38Zm2i0EcX8uZ29AapQ4ZWD",
+        "method": "DELETE",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "description": ""
+          },
+          {
+            "key": "Accept",
+            "value": "application/json, application/xml, text/xml, application/javascript, text/javascript",
+            "description": ""
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": ""
+        },
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "name": "Cate5. 刪除分類的產品",
+      "request": {
+        "url": "http://0.0.0.0:3010/frontend_api/api/products/himirrortest/cate/himirrortest?access_token=eyM8Om5Ez8nZXfPb9OM4o2bxsWnudDNPD8xeMVGfY38Zm2i0EcX8uZ29AapQ4ZWD",
+        "method": "DELETE",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "description": ""
+          },
+          {
+            "key": "Accept",
+            "value": "application/json, application/xml, text/xml, application/javascript, text/javascript",
+            "description": ""
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": ""
+        },
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "name": "Cate5. 刪除分類的產品",
+      "request": {
+        "url": "http://0.0.0.0:3010/frontend_api/api/products/himirrortest/cate/himirrortest?access_token=eyM8Om5Ez8nZXfPb9OM4o2bxsWnudDNPD8xeMVGfY38Zm2i0EcX8uZ29AapQ4ZWD",
+        "method": "DELETE",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "description": ""
+          },
+          {
+            "key": "Accept",
+            "value": "application/json, application/xml, text/xml, application/javascript, text/javascript",
+            "description": ""
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": ""
+        },
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "name": "Cate5. 刪除分類的產品",
+      "request": {
+        "url": "http://0.0.0.0:3010/frontend_api/api/products/himirrortest/cate/himirrortest?access_token=eyM8Om5Ez8nZXfPb9OM4o2bxsWnudDNPD8xeMVGfY38Zm2i0EcX8uZ29AapQ4ZWD",
+        "method": "DELETE",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "description": ""
+          },
+          {
+            "key": "Accept",
+            "value": "application/json, application/xml, text/xml, application/javascript, text/javascript",
+            "description": ""
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": ""
+        },
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "name": "Cate5. 刪除分類的產品",
+      "request": {
+        "url": "http://0.0.0.0:3010/frontend_api/api/products/himirrortest/cate/himirrortest?access_token=eyM8Om5Ez8nZXfPb9OM4o2bxsWnudDNPD8xeMVGfY38Zm2i0EcX8uZ29AapQ4ZWD",
+        "method": "DELETE",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "description": ""
+          },
+          {
+            "key": "Accept",
+            "value": "application/json, application/xml, text/xml, application/javascript, text/javascript",
+            "description": ""
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": ""
+        },
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "name": "Cate5. 刪除分類的產品",
+      "request": {
+        "url": "http://0.0.0.0:3010/frontend_api/api/products/himirrortest/cate/himirrortest?access_token=eyM8Om5Ez8nZXfPb9OM4o2bxsWnudDNPD8xeMVGfY38Zm2i0EcX8uZ29AapQ4ZWD",
+        "method": "DELETE",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "description": ""
+          },
+          {
+            "key": "Accept",
+            "value": "application/json, application/xml, text/xml, application/javascript, text/javascript",
+            "description": ""
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": ""
+        },
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "name": "Cate5. 刪除分類的產品",
+      "request": {
+        "url": "http://0.0.0.0:3010/frontend_api/api/products/himirrortest/cate/himirrortest?access_token=eyM8Om5Ez8nZXfPb9OM4o2bxsWnudDNPD8xeMVGfY38Zm2i0EcX8uZ29AapQ4ZWD",
+        "method": "DELETE",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "description": ""
+          },
+          {
+            "key": "Accept",
+            "value": "application/json, application/xml, text/xml, application/javascript, text/javascript",
+            "description": ""
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": ""
+        },
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "name": "Cate5. 刪除分類的產品",
+      "request": {
+        "url": "http://0.0.0.0:3010/frontend_api/api/products/himirrortest/cate/himirrortest?access_token=eyM8Om5Ez8nZXfPb9OM4o2bxsWnudDNPD8xeMVGfY38Zm2i0EcX8uZ29AapQ4ZWD",
+        "method": "DELETE",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "description": ""
+          },
+          {
+            "key": "Accept",
+            "value": "application/json, application/xml, text/xml, application/javascript, text/javascript",
+            "description": ""
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": ""
+        },
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "name": "Cate5. 刪除分類的產品",
+      "request": {
+        "url": "http://0.0.0.0:3010/frontend_api/api/products/himirrortest/cate/himirrortest?access_token=eyM8Om5Ez8nZXfPb9OM4o2bxsWnudDNPD8xeMVGfY38Zm2i0EcX8uZ29AapQ4ZWD",
+        "method": "DELETE",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "description": ""
+          },
+          {
+            "key": "Accept",
+            "value": "application/json, application/xml, text/xml, application/javascript, text/javascript",
+            "description": ""
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": ""
+        },
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "name": "Cate5. 刪除分類的產品",
+      "request": {
+        "url": "http://0.0.0.0:3010/frontend_api/api/products/himirrortest/cate/himirrortest?access_token=eyM8Om5Ez8nZXfPb9OM4o2bxsWnudDNPD8xeMVGfY38Zm2i0EcX8uZ29AapQ4ZWD",
+        "method": "DELETE",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "description": ""
+          },
+          {
+            "key": "Accept",
+            "value": "application/json, application/xml, text/xml, application/javascript, text/javascript",
+            "description": ""
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": ""
+        },
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "name": "Cate5. 刪除分類的產品",
+      "request": {
+        "url": "http://0.0.0.0:3010/frontend_api/api/products/himirrortest/cate/himirrortest?access_token=eyM8Om5Ez8nZXfPb9OM4o2bxsWnudDNPD8xeMVGfY38Zm2i0EcX8uZ29AapQ4ZWD",
+        "method": "DELETE",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "description": ""
+          },
+          {
+            "key": "Accept",
+            "value": "application/json, application/xml, text/xml, application/javascript, text/javascript",
+            "description": ""
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": ""
+        },
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "name": "Cate5. 刪除分類的產品",
+      "request": {
+        "url": "http://0.0.0.0:3010/frontend_api/api/products/himirrortest/cate/himirrortest?access_token=eyM8Om5Ez8nZXfPb9OM4o2bxsWnudDNPD8xeMVGfY38Zm2i0EcX8uZ29AapQ4ZWD",
+        "method": "DELETE",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "description": ""
+          },
+          {
+            "key": "Accept",
+            "value": "application/json, application/xml, text/xml, application/javascript, text/javascript",
+            "description": ""
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": ""
+        },
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "name": "Cate5. 刪除分類的產品",
+      "request": {
+        "url": "http://0.0.0.0:3010/frontend_api/api/products/himirrortest/cate/himirrortest?access_token=eyM8Om5Ez8nZXfPb9OM4o2bxsWnudDNPD8xeMVGfY38Zm2i0EcX8uZ29AapQ4ZWD",
+        "method": "DELETE",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "description": ""
+          },
+          {
+            "key": "Accept",
+            "value": "application/json, application/xml, text/xml, application/javascript, text/javascript",
+            "description": ""
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": ""
+        },
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "name": "Cate5. 刪除分類的產品",
+      "request": {
+        "url": "http://0.0.0.0:3010/frontend_api/api/products/himirrortest/cate/himirrortest?access_token=eyM8Om5Ez8nZXfPb9OM4o2bxsWnudDNPD8xeMVGfY38Zm2i0EcX8uZ29AapQ4ZWD",
+        "method": "DELETE",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "description": ""
+          },
+          {
+            "key": "Accept",
+            "value": "application/json, application/xml, text/xml, application/javascript, text/javascript",
+            "description": ""
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": ""
+        },
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "name": "Cate5. 刪除分類的產品",
+      "request": {
+        "url": "http://0.0.0.0:3010/frontend_api/api/products/himirrortest/cate/himirrortest?access_token=eyM8Om5Ez8nZXfPb9OM4o2bxsWnudDNPD8xeMVGfY38Zm2i0EcX8uZ29AapQ4ZWD",
+        "method": "DELETE",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "description": ""
+          },
+          {
+            "key": "Accept",
+            "value": "application/json, application/xml, text/xml, application/javascript, text/javascript",
+            "description": ""
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": ""
+        },
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "name": "Cate5. 刪除分類的產品",
+      "request": {
+        "url": "http://0.0.0.0:3010/frontend_api/api/products/himirrortest/cate/himirrortest?access_token=eyM8Om5Ez8nZXfPb9OM4o2bxsWnudDNPD8xeMVGfY38Zm2i0EcX8uZ29AapQ4ZWD",
+        "method": "DELETE",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "description": ""
+          },
+          {
+            "key": "Accept",
+            "value": "application/json, application/xml, text/xml, application/javascript, text/javascript",
+            "description": ""
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": ""
+        },
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "name": "Cate5. 刪除分類的產品",
+      "request": {
+        "url": "http://0.0.0.0:3010/frontend_api/api/products/himirrortest/cate/himirrortest?access_token=eyM8Om5Ez8nZXfPb9OM4o2bxsWnudDNPD8xeMVGfY38Zm2i0EcX8uZ29AapQ4ZWD",
+        "method": "DELETE",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "description": ""
+          },
+          {
+            "key": "Accept",
+            "value": "application/json, application/xml, text/xml, application/javascript, text/javascript",
+            "description": ""
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": ""
+        },
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "name": "Cate5. 刪除分類的產品",
+      "request": {
+        "url": "http://0.0.0.0:3010/frontend_api/api/products/himirrortest/cate/himirrortest?access_token=eyM8Om5Ez8nZXfPb9OM4o2bxsWnudDNPD8xeMVGfY38Zm2i0EcX8uZ29AapQ4ZWD",
+        "method": "DELETE",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "description": ""
+          },
+          {
+            "key": "Accept",
+            "value": "application/json, application/xml, text/xml, application/javascript, text/javascript",
+            "description": ""
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": ""
+        },
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "name": "Cate5. 刪除分類的產品",
+      "request": {
+        "url": "http://0.0.0.0:3010/frontend_api/api/products/himirrortest/cate/himirrortest?access_token=eyM8Om5Ez8nZXfPb9OM4o2bxsWnudDNPD8xeMVGfY38Zm2i0EcX8uZ29AapQ4ZWD",
+        "method": "DELETE",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "description": ""
+          },
+          {
+            "key": "Accept",
+            "value": "application/json, application/xml, text/xml, application/javascript, text/javascript",
+            "description": ""
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": ""
+        },
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "name": "Cate5. 刪除分類的產品",
+      "request": {
+        "url": "http://0.0.0.0:3010/frontend_api/api/products/himirrortest/cate/himirrortest?access_token=eyM8Om5Ez8nZXfPb9OM4o2bxsWnudDNPD8xeMVGfY38Zm2i0EcX8uZ29AapQ4ZWD",
+        "method": "DELETE",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "description": ""
+          },
+          {
+            "key": "Accept",
+            "value": "application/json, application/xml, text/xml, application/javascript, text/javascript",
+            "description": ""
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": ""
+        },
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "name": "Cate5. 刪除分類的產品",
+      "request": {
+        "url": "http://0.0.0.0:3010/frontend_api/api/products/himirrortest/cate/himirrortest?access_token=eyM8Om5Ez8nZXfPb9OM4o2bxsWnudDNPD8xeMVGfY38Zm2i0EcX8uZ29AapQ4ZWD",
+        "method": "DELETE",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "description": ""
+          },
+          {
+            "key": "Accept",
+            "value": "application/json, application/xml, text/xml, application/javascript, text/javascript",
+            "description": ""
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": ""
+        },
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "name": "Cate5. 刪除分類的產品",
+      "request": {
+        "url": "http://0.0.0.0:3010/frontend_api/api/products/himirrortest/cate/himirrortest?access_token=eyM8Om5Ez8nZXfPb9OM4o2bxsWnudDNPD8xeMVGfY38Zm2i0EcX8uZ29AapQ4ZWD",
+        "method": "DELETE",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "description": ""
+          },
+          {
+            "key": "Accept",
+            "value": "application/json, application/xml, text/xml, application/javascript, text/javascript",
+            "description": ""
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": ""
+        },
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "name": "Cate5. 刪除分類的產品",
+      "request": {
+        "url": "http://0.0.0.0:3010/frontend_api/api/products/himirrortest/cate/himirrortest?access_token=eyM8Om5Ez8nZXfPb9OM4o2bxsWnudDNPD8xeMVGfY38Zm2i0EcX8uZ29AapQ4ZWD",
+        "method": "DELETE",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "description": ""
+          },
+          {
+            "key": "Accept",
+            "value": "application/json, application/xml, text/xml, application/javascript, text/javascript",
+            "description": ""
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": ""
+        },
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "name": "Cate5. 刪除分類的產品",
+      "request": {
+        "url": "http://0.0.0.0:3010/frontend_api/api/products/himirrortest/cate/himirrortest?access_token=eyM8Om5Ez8nZXfPb9OM4o2bxsWnudDNPD8xeMVGfY38Zm2i0EcX8uZ29AapQ4ZWD",
+        "method": "DELETE",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "description": ""
+          },
+          {
+            "key": "Accept",
+            "value": "application/json, application/xml, text/xml, application/javascript, text/javascript",
+            "description": ""
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": ""
+        },
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "name": "Cate5. 刪除分類的產品",
+      "request": {
+        "url": "http://0.0.0.0:3010/frontend_api/api/products/himirrortest/cate/himirrortest?access_token=eyM8Om5Ez8nZXfPb9OM4o2bxsWnudDNPD8xeMVGfY38Zm2i0EcX8uZ29AapQ4ZWD",
+        "method": "DELETE",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "description": ""
+          },
+          {
+            "key": "Accept",
+            "value": "application/json, application/xml, text/xml, application/javascript, text/javascript",
+            "description": ""
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": ""
+        },
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "name": "Cate5. 刪除分類的產品",
+      "request": {
+        "url": "http://0.0.0.0:3010/frontend_api/api/products/himirrortest/cate/himirrortest?access_token=eyM8Om5Ez8nZXfPb9OM4o2bxsWnudDNPD8xeMVGfY38Zm2i0EcX8uZ29AapQ4ZWD",
+        "method": "DELETE",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "description": ""
+          },
+          {
+            "key": "Accept",
+            "value": "application/json, application/xml, text/xml, application/javascript, text/javascript",
+            "description": ""
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": ""
+        },
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "name": "Cate5. 刪除分類的產品",
+      "request": {
+        "url": "http://0.0.0.0:3010/frontend_api/api/products/himirrortest/cate/himirrortest?access_token=eyM8Om5Ez8nZXfPb9OM4o2bxsWnudDNPD8xeMVGfY38Zm2i0EcX8uZ29AapQ4ZWD",
+        "method": "DELETE",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "description": ""
+          },
+          {
+            "key": "Accept",
+            "value": "application/json, application/xml, text/xml, application/javascript, text/javascript",
+            "description": ""
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": ""
+        },
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "name": "Cate5. 刪除分類的產品",
+      "request": {
+        "url": "http://0.0.0.0:3010/frontend_api/api/products/himirrortest/cate/himirrortest?access_token=eyM8Om5Ez8nZXfPb9OM4o2bxsWnudDNPD8xeMVGfY38Zm2i0EcX8uZ29AapQ4ZWD",
+        "method": "DELETE",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "description": ""
+          },
+          {
+            "key": "Accept",
+            "value": "application/json, application/xml, text/xml, application/javascript, text/javascript",
+            "description": ""
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": ""
+        },
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "name": "Cate5. 刪除分類的產品",
+      "request": {
+        "url": "http://0.0.0.0:3010/frontend_api/api/products/himirrortest/cate/himirrortest?access_token=eyM8Om5Ez8nZXfPb9OM4o2bxsWnudDNPD8xeMVGfY38Zm2i0EcX8uZ29AapQ4ZWD",
+        "method": "DELETE",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "description": ""
+          },
+          {
+            "key": "Accept",
+            "value": "application/json, application/xml, text/xml, application/javascript, text/javascript",
+            "description": ""
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": ""
+        },
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "name": "Cate5. 刪除分類的產品",
+      "request": {
+        "url": "http://0.0.0.0:3010/frontend_api/api/products/himirrortest/cate/himirrortest?access_token=eyM8Om5Ez8nZXfPb9OM4o2bxsWnudDNPD8xeMVGfY38Zm2i0EcX8uZ29AapQ4ZWD",
+        "method": "DELETE",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "description": ""
+          },
+          {
+            "key": "Accept",
+            "value": "application/json, application/xml, text/xml, application/javascript, text/javascript",
+            "description": ""
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": ""
+        },
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "name": "Cate5. 刪除分類的產品",
+      "request": {
+        "url": "http://0.0.0.0:3010/frontend_api/api/products/himirrortest/cate/himirrortest?access_token=eyM8Om5Ez8nZXfPb9OM4o2bxsWnudDNPD8xeMVGfY38Zm2i0EcX8uZ29AapQ4ZWD",
+        "method": "DELETE",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "description": ""
+          },
+          {
+            "key": "Accept",
+            "value": "application/json, application/xml, text/xml, application/javascript, text/javascript",
+            "description": ""
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": ""
+        },
+        "description": ""
+      },
+      "response": []
+    },
+    {
+      "name": "Cate5. 刪除分類的產品",
+      "request": {
+        "url": "http://0.0.0.0:3010/frontend_api/api/products/himirrortest/cate/himirrortest?access_token=eyM8Om5Ez8nZXfPb9OM4o2bxsWnudDNPD8xeMVGfY38Zm2i0EcX8uZ29AapQ4ZWD",
+        "method": "DELETE",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "description": ""
+          },
+          {
+            "key": "Accept",
+            "value": "application/json, application/xml, text/xml, application/javascript, text/javascript",
+            "description": ""
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": ""
+        },
+        "description": ""
+      },
+      "response": []
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "name": "HiMirror_China_B2B_dev",
+  "version": "1.0.0",
+  "main": "server/server.js",
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "start": "node .",
+    "posttest": "npm run lint && nsp check"
+  },
+  "dependencies": {
+    "compression": "^1.7.3",
+    "cors": "^2.8.5",
+    "helmet": "^3.15.0",
+    "jwt-simple": "^0.5.5",
+    "loopback": "^3.24.0",
+    "loopback-boot": "^2.27.1",
+    "loopback-cascade-delete-mixin": "^2.0.0",
+    "loopback-component-explorer": "^6.3.1",
+    "loopback-component-storage": "^3.5.0",
+    "loopback-connector-mysql": "^5.3.1",
+    "loopback-ds-cascade-update-mixin": "^1.2.1",
+    "loopback-multiple-delete-mixin": "0.0.1",
+    "newman-reporter-html": "^1.0.2",
+    "serve-favicon": "^2.5.0",
+    "storage": "^0.2.0",
+    "strong-error-handler": "^3.2.0",
+    "system-sleep": "^1.3.6"
+  },
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "eslint-config-loopback": "^8.0.0",
+    "loopback-api-testing": "^0.3.3",
+    "nsp": "^2.8.1"
+  },
+  "repository": {
+    "type": "",
+    "url": ""
+  },
+  "author": "",
+  "license": "UNLICENSED",
+  "description": "CN B2b Backend"
+}

@@ -1,0 +1,416 @@
+{
+  "info": {
+    "_postman_id": "6716daf0-ef20-4c77-b0c1-8590c54bab9f",
+    "name": "Z5. Dashboards",
+    "description": "New collection (imported from DHC)",
+    "schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Dashboard.ageDistribution",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "id": "42d719ce-ca7d-48af-83a6-af2b3a026753",
+            "exec": [
+              "// handle case where it is 204",
+              "",
+              "if (responseCode.code === 200) {",
+              "    tests[\"Status code is 200\"] = true;",
+              "",
+              "}",
+              "else if (responseCode.code === 204) {",
+              "    tests[\"Status code is 204\"] = true;",
+              "}",
+              "else {",
+              "    tests[\"Status code is 204 or 200\"] = false;",
+              "}"
+            ],
+            "type": "text/javascript"
+          }
+        }
+      ],
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          },
+          {
+            "key": "Accept",
+            "value": "application/json, application/xml, text/xml, application/javascript, text/javascript"
+          },
+          {
+            "key": "Accept",
+            "value": "application/x-www-form-urlencoded"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": ""
+        },
+        "url": {
+          "raw": "http://10.27.39.42:3010/frontend_api/api/Dashboards/ageDistribution/SYSChannelProfiles001?access_token=EJRyBKcu7CS9moyCHjeB0eT9paolVCLCxL9ZYsbeB7PQBGqcRRT5u64sZBmNIEki",
+          "protocol": "http",
+          "host": [
+            "10",
+            "27",
+            "39",
+            "42"
+          ],
+          "port": "3010",
+          "path": [
+            "frontend_api",
+            "api",
+            "Dashboards",
+            "ageDistribution",
+            "SYSChannelProfiles001"
+          ],
+          "query": [
+            {
+              "key": "access_token",
+              "value": "EJRyBKcu7CS9moyCHjeB0eT9paolVCLCxL9ZYsbeB7PQBGqcRRT5u64sZBmNIEki"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Dashboard.avgSkinDistribution",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "id": "3627857b-312e-4fd6-bd9f-7b8ef178d707",
+            "exec": [
+              "// handle case where it is 204",
+              "",
+              "if (responseCode.code === 200) {",
+              "    tests[\"Status code is 200\"] = true;",
+              "",
+              "}",
+              "else if (responseCode.code === 204) {",
+              "    tests[\"Status code is 204\"] = true;",
+              "}",
+              "else {",
+              "    tests[\"Status code is 204 or 200\"] = false;",
+              "}"
+            ],
+            "type": "text/javascript"
+          }
+        }
+      ],
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "name": "Content-Type",
+            "value": "application/x-www-form-urlencoded",
+            "type": "text"
+          },
+          {
+            "key": "Accept",
+            "value": "application/json, application/xml, text/xml, application/javascript, text/javascript"
+          },
+          {
+            "key": "Accept",
+            "value": "application/x-www-form-urlencoded"
+          }
+        ],
+        "body": {
+          "mode": "urlencoded",
+          "urlencoded": [
+            {
+              "key": "ageGroup",
+              "value": "all",
+              "type": "text"
+            },
+            {
+              "key": "factor",
+              "value": "acne",
+              "type": "text"
+            },
+            {
+              "key": "gender",
+              "value": "all",
+              "type": "text"
+            },
+            {
+              "key": "channelID",
+              "value": "SYSChannelProfiles001",
+              "type": "text"
+            }
+          ]
+        },
+        "url": {
+          "raw": "http://10.27.39.42:3010/frontend_api/api/Dashboards/avgSkinDistribution?access_token=EJRyBKcu7CS9moyCHjeB0eT9paolVCLCxL9ZYsbeB7PQBGqcRRT5u64sZBmNIEki",
+          "protocol": "http",
+          "host": [
+            "10",
+            "27",
+            "39",
+            "42"
+          ],
+          "port": "3010",
+          "path": [
+            "frontend_api",
+            "api",
+            "Dashboards",
+            "avgSkinDistribution"
+          ],
+          "query": [
+            {
+              "key": "access_token",
+              "value": "EJRyBKcu7CS9moyCHjeB0eT9paolVCLCxL9ZYsbeB7PQBGqcRRT5u64sZBmNIEki"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Dashboard.customerDistribution",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "id": "a28f79f1-3dca-4f6a-bccd-b1b8040fb50c",
+            "exec": [
+              "// handle case where it is 204",
+              "",
+              "if (responseCode.code === 200) {",
+              "    tests[\"Status code is 200\"] = true;",
+              "",
+              "}",
+              "else if (responseCode.code === 204) {",
+              "    tests[\"Status code is 204\"] = true;",
+              "}",
+              "else {",
+              "    tests[\"Status code is 204 or 200\"] = false;",
+              "}"
+            ],
+            "type": "text/javascript"
+          }
+        }
+      ],
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "name": "Content-Type",
+            "value": "application/x-www-form-urlencoded",
+            "type": "text"
+          },
+          {
+            "key": "Accept",
+            "value": "application/json, application/xml, text/xml, application/javascript, text/javascript"
+          },
+          {
+            "key": "Accept",
+            "value": "application/x-www-form-urlencoded"
+          }
+        ],
+        "body": {
+          "mode": "urlencoded",
+          "urlencoded": [
+            {
+              "key": "gender",
+              "value": "female",
+              "type": "text"
+            },
+            {
+              "key": "channelID",
+              "value": "SYSChannelProfiles001",
+              "type": "text"
+            }
+          ]
+        },
+        "url": {
+          "raw": "http://10.27.39.42:3010/frontend_api/api/Dashboards/customerDistribution?access_token=EJRyBKcu7CS9moyCHjeB0eT9paolVCLCxL9ZYsbeB7PQBGqcRRT5u64sZBmNIEki",
+          "protocol": "http",
+          "host": [
+            "10",
+            "27",
+            "39",
+            "42"
+          ],
+          "port": "3010",
+          "path": [
+            "frontend_api",
+            "api",
+            "Dashboards",
+            "customerDistribution"
+          ],
+          "query": [
+            {
+              "key": "access_token",
+              "value": "EJRyBKcu7CS9moyCHjeB0eT9paolVCLCxL9ZYsbeB7PQBGqcRRT5u64sZBmNIEki"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Dashboard.genderDistribution",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "id": "fb4e3278-e090-4c04-8fe9-3201ee3bb984",
+            "exec": [
+              "// handle case where it is 204",
+              "",
+              "if (responseCode.code === 200) {",
+              "    tests[\"Status code is 200\"] = true;",
+              "",
+              "}",
+              "else if (responseCode.code === 204) {",
+              "    tests[\"Status code is 204\"] = true;",
+              "}",
+              "else {",
+              "    tests[\"Status code is 204 or 200\"] = false;",
+              "}"
+            ],
+            "type": "text/javascript"
+          }
+        }
+      ],
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          },
+          {
+            "key": "Accept",
+            "value": "application/json, application/xml, text/xml, application/javascript, text/javascript"
+          },
+          {
+            "key": "Accept",
+            "value": "application/x-www-form-urlencoded"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": ""
+        },
+        "url": {
+          "raw": "http://10.27.39.42:3010/frontend_api/api/Dashboards/genderDistribution/SYSChannelProfiles001?access_token=EJRyBKcu7CS9moyCHjeB0eT9paolVCLCxL9ZYsbeB7PQBGqcRRT5u64sZBmNIEki",
+          "protocol": "http",
+          "host": [
+            "10",
+            "27",
+            "39",
+            "42"
+          ],
+          "port": "3010",
+          "path": [
+            "frontend_api",
+            "api",
+            "Dashboards",
+            "genderDistribution",
+            "SYSChannelProfiles001"
+          ],
+          "query": [
+            {
+              "key": "access_token",
+              "value": "EJRyBKcu7CS9moyCHjeB0eT9paolVCLCxL9ZYsbeB7PQBGqcRRT5u64sZBmNIEki"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Dashboard.skinTypeDistribution",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "id": "61bea5c1-6f18-4316-beb1-b0b64255d9cc",
+            "exec": [
+              "// handle case where it is 204",
+              "",
+              "if (responseCode.code === 200) {",
+              "    tests[\"Status code is 200\"] = true;",
+              "",
+              "}",
+              "else if (responseCode.code === 204) {",
+              "    tests[\"Status code is 204\"] = true;",
+              "}",
+              "else {",
+              "    tests[\"Status code is 204 or 200\"] = false;",
+              "}"
+            ],
+            "type": "text/javascript"
+          }
+        }
+      ],
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "name": "Content-Type",
+            "value": "application/x-www-form-urlencoded",
+            "type": "text"
+          },
+          {
+            "key": "Accept",
+            "value": "application/json, application/xml, text/xml, application/javascript, text/javascript"
+          },
+          {
+            "key": "Accept",
+            "value": "application/x-www-form-urlencoded"
+          }
+        ],
+        "body": {
+          "mode": "urlencoded",
+          "urlencoded": [
+            {
+              "key": "gender",
+              "value": "male",
+              "type": "text"
+            },
+            {
+              "key": "channelID",
+              "value": "SYSChannelProfiles001",
+              "type": "text"
+            }
+          ]
+        },
+        "url": {
+          "raw": "http://10.27.39.42:3010/frontend_api/api/Dashboards/skinTypeDistribution?access_token=EJRyBKcu7CS9moyCHjeB0eT9paolVCLCxL9ZYsbeB7PQBGqcRRT5u64sZBmNIEki",
+          "protocol": "http",
+          "host": [
+            "10",
+            "27",
+            "39",
+            "42"
+          ],
+          "port": "3010",
+          "path": [
+            "frontend_api",
+            "api",
+            "Dashboards",
+            "skinTypeDistribution"
+          ],
+          "query": [
+            {
+              "key": "access_token",
+              "value": "EJRyBKcu7CS9moyCHjeB0eT9paolVCLCxL9ZYsbeB7PQBGqcRRT5u64sZBmNIEki"
+            }
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
